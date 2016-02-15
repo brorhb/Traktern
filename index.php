@@ -6,10 +6,12 @@
 </head>
 
 <body>
-<h1>Traktern</h1>
+<h1>handleliste</h1>
 <ul>
-	<li>test</li>
-    <li></li>
+	<li>melk</li>
+    <li>banan</li>
+    <li>is</li>
+    <li>epler</li>
 </ul>
 
 
