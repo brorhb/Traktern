@@ -6,12 +6,12 @@
 </head>
 
 <body>
-<h1>handleliste</h1>
+<h1>Handleliste</h1>
 <ul>
-	<li>melk</li>
-    <li>banan</li>
-    <li>is</li>
-    <li>epler</li>
+	<li>Melk</li>
+    <li>Banan</li>
+    <li>Is</li>
+    <li>Epler</li>
 </ul>
 
 
