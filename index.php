@@ -11,7 +11,7 @@
 	<li>Melk</li>
     <li>Banan</li>
     <li>Is</li>
-    <li>Epler</li>
+    <li>Pærer</li>
 </ul>
 
 
