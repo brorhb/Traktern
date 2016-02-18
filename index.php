@@ -1,21 +1,16 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style">
+	<meta charset="UTF-8">
+	<title>Traktern</title>
 </head>
 
-<body>
-<h1>Handleliste</h1>
-<ul>
-	<li>Melk</li>
-    <li>Banan</li>
-    <li>Is</li>
-    <li>Epler</li>
-</ul>
 
-    <p>hello world!</p>
-    <p>yolo</p>
-    <h1>feilmelding</h1>
+
+
+<body>
+
 </body>
 </html>
