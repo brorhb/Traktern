@@ -15,4 +15,5 @@ body {
   padding: 6px 12px;
   display: inline-block; }
 
-/*# sourceMappingURL=style.css.map */
+img {
+  max-width: 100%; }
