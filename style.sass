@@ -1,5 +1,13 @@
+$break-small: 520px
+$information-phone: "only screen and (max-width : 320px)"
+
+li
+    list-style-type: none
+
 body
     background-color: black
+    height: 100%
+    color: white
 
 .small-dark-title
     background: #000
@@ -10,7 +18,9 @@ body
 img
     max-width: 100%
 
+//meny
 .brand
+    position: relative
     margin-top: 5px
     margin-bottom: 5px
     h2
@@ -18,11 +28,14 @@ img
         max-height: 117px
 
 .pinline
+    position: absolute
+    top: 0
     background: #a04e43
     width: 100%
     height: 5px
 
 .nav-pills
+    position: relative
     margin-top: 20px
     li > a
         color: white
@@ -31,13 +44,46 @@ img
         &:focus, &:hover
             background-color: #a04e43
 .nav > li > a
+    position: relative
     &:focus, &:hover
         text-decoration: none
         background-color: #5d5d5d
 
-.forsidebilde .content-inner
-    max-width: 100% !important
-    padding: 0 !important
-    img
-        margin-top: 5px
-        width: 100%
+
+// paralax
+.forsidebilde
+    color: black
+    position: relative
+    height: 400px
+    width: 100%
+    background:
+        image: url(/bilder/forside.png )
+        size: auto 100%
+        position: top center
+        attachment: fixed
+    overflow: hidden
+
+.landingPageTekst
+    margin-left: 10px
+    max-height: 100%
+    position: center
+    margin-top: 20%
+
+//ASSETS
+.stripes
+    position: relative
+    height: 285px
+    background:
+        image: url(/bilder/striper.png)
+        width: auto 100%
+        repeat: repeat-x
+
+
+//ÅPNINGSTIDER
+.espressoFremside
+    position: relative
+    max-height: 135px
+    width: auto
+    float: left
+    background:
+        image: url(/bilder/espresso.png)
