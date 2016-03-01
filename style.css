@@ -67,12 +67,7 @@ img {
   position: relative;
   height: 285px;
   background-image: url(/bilder/striper.png);
-  background-width: auto 100%;
   background-repeat: repeat-x; }
 
 .espressoFremside {
-  position: relative;
-  max-height: 135px;
-  width: auto;
-  float: left;
-  background-image: url(/bilder/espresso.png); }
+  margin-top: 20%; }
