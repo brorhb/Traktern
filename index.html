@@ -1,126 +1,43 @@
 <!DOCTYPE html>
 <html lang-no>
   <head>
-    <title>Jade intro</title>
+    <title>Traktern</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+        <div class="row">
+          <div class="pinline"></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="brand"><img src="bilder/logo.png"></div>
+            </div>
+            <ul class="col-md-8 list-inline margin-top text-right">
+              <li>
+                <nav>
+                  <div class="col-sm-12"></div>
+                  <ul class="nav nav-pills">
+                    <li class="active"><a href="">Hjem</a></li>
+                    <li><a href="">Kaffe</a></li>
+                    <li><a href="">Meny</a></li>
+                    <li><a href="">Blogg</a></li>
+                    <li><a href="">Om oss</a></li>
+                    <li><a href="">Logg inn</a></li>
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+          </div>
+        </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <h2>Jade/Sass</h2>
+        <div class="col-sm-12">
+          <div class="forsidebilde"><img src="bilder/forside.png"></div>
         </div>
-        <ul class="col-md-8 list-inline margin-top text-right">
-          <li><a href="">
-              <div class="glyphicon glyphicon-envelope"> Newsletter</div></a></li>
-          <li><a href="">
-              <div class="glyphicon glyphicon-globe"> RSS</div></a></li>
-          <li>   <span> |</span></li>
-          <li>
-            <form role="form" class="form-inline">
-              <div class="form-group">
-                <lable class="sr-only">Email Address</lable>
-                <input type="email" placeholder="Email Adress" class="form-control">
-                <buttom type="submit" class="btn btn-default">Sign up</buttom>
-              </div>
-            </form>
-          </li>
-        </ul>
-      </div>
-      <nav class="row">
-        <div class="col-sm-12"></div>
-        <ul class="nav nav-tabs">
-          <li class="active"><a href="">Kaffe</a></li>
-          <li><a href="">Meny</a></li>
-          <li><a href="">Blogg</a></li>
-          <li><a href="">Om oss</a></li>
-          <li><a href="">Logg inn</a></li>
-        </ul>
-      </nav>
-      <div class="row">
-        <div class="col-sm-5">
-          <article>   
-            <h5 class="small-dark-title">Lorem ipsum</h5>
-            <div class="lead">Bror Brurberg <span class="text-muted"> | 19/02/2016</span></div>
-            <h2>Lorem ipsum</h2>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="row text-muted"> 
-                  <div class="col-sm-4">
-                    <div class="glyphicon glyphicon-time"> </div> 3 days ago
-                  </div>
-                  <div class="col-sm-8">
-                    <div class="glyphicon glyphicon-tags"></div><strong> Tags: </strong><a href="">lorem</a>, <a href="">lorem</a>, <a href="">lorem</a>, <a href="">lorem</a>
-                  </div>
-                </div>
-          </article>
-          <hr>
-          <article>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="small-dark-title">Lorem ipsum</div>
-              </div>
-              <div class="col-sm-6"><a href=""> Questions</a><span class="text-muted"> | 19/02</span></div>
-            </div>
-            <h2>Lorem ipsum</h2>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="row text-muted"> 
-                  <div class="col-sm-4">
-                    <div class="glyphicon glyphicon-time"> </div> 3 days ago
-                  </div>
-                  <div class="col-sm-8">
-                    <div class="glyphicon glyphicon-tags"></div><strong> Tags: </strong><a href="">lorem</a>, <a href="">lorem</a>, <a href="">lorem</a>, <a href="">lorem</a>
-                  </div>
-                </div>
-            <hr>
-          </article>
-          <article><strong>Lorem</strong><span class="text-muted"> | 04/02/2016</span>
-            <h2>Lorem ipsum dolor sit amet</h2><img src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=560×250&amp;w=560&amp;h=250">
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-                <div class="row text-muted"> 
-                  <div class="col-sm-4">
-                    <div class="glyphicon glyphicon-time"> </div> 3 days ago
-                  </div>
-                  <div class="col-sm-8">
-                    <div class="glyphicon glyphicon-tags"></div><strong> Tags: </strong><a href="">lorem</a>, <a href="">lorem</a>, <a href="">lorem</a>, <a href="">lorem</a>
-                  </div>
-                </div>
-            <hr>
-          </article>
-          <article><strong>Lorem</strong><span class="text-muted"> | 04/02/2016</span>
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <div class="row text-muted"> 
-                  <div class="col-sm-4">
-                    <div class="glyphicon glyphicon-time"> </div> 3 days ago
-                  </div>
-                  <div class="col-sm-8">
-                    <div class="glyphicon glyphicon-tags"></div><strong> Tags: </strong><a href="">lorem</a>, <a href="">lorem</a>, <a href="">lorem</a>, <a href="">lorem</a>
-                  </div>
-                </div>
-            <hr>
-          </article>
-        </div>
-        <div class="col-sm-4">
-          <article class="grayBox">
-            <h4 class="small-dark-title">Lorem</h4>
-            <embed-responsive class="embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/io5mgCsmT24?list=PLqGj3iMvMa4IPwMW-sSXn1Q_pVu5tUMCw" frameborder="0" allowfullscreen></iframe></embed-responsive>
-            <h2>Lorem</h2>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
-                <div class="row text-muted"> 
-                  <div class="col-sm-4">
-                    <div class="glyphicon glyphicon-time"> </div> 3 days ago
-                  </div>
-                  <div class="col-sm-8">
-                    <div class="glyphicon glyphicon-tags"></div><strong> Tags: </strong><a href="">lorem</a>, <a href="">lorem</a>, <a href="">lorem</a>, <a href="">lorem</a>
-                  </div>
-                </div>
-            <hr>
-          </article>
-        </div>
-        <div class="col-sm-3"></div>
       </div>
     </div>
   </body>

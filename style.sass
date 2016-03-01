@@ -1,15 +1,5 @@
-$small: 544px
-
 body
-    background-color: white
-
-.margin-top
-    margin-top: 20px
-
-.nav-tabs
-    background-color: #eee
-    padding-top: 20px
-    border-radius: 5px 5px 0 0
+    background-color: black
 
 .small-dark-title
     background: #000
@@ -20,9 +10,34 @@ body
 img
     max-width: 100%
 
-iframe
-    max-width: 100%
-
-.grayBox
-    background-color: #e8e8e8
+.brand
     margin-top: 5px
+    margin-bottom: 5px
+    h2
+        color: white
+        max-height: 117px
+
+.pinline
+    background: #a04e43
+    width: 100%
+    height: 5px
+
+.nav-pills
+    margin-top: 20px
+    li > a
+        color: white
+    li.active > a
+        background-color: #a04e43
+        &:focus, &:hover
+            background-color: #a04e43
+.nav > li > a
+    &:focus, &:hover
+        text-decoration: none
+        background-color: #5d5d5d
+
+.forsidebilde .content-inner
+    max-width: 100% !important
+    padding: 0 !important
+    img
+        margin-top: 5px
+        width: 100%

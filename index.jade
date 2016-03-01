@@ -1,43 +1,21 @@
 doctype html
 html(lang-no)
     head
-        title Jade intro
+        title Traktern
         meta(charset="utf-8")
         meta(name="viewport", content="width=device-width initial-scale=1.0")
-        link(rel="stylesheet" type="text/css" href="style.css")
         link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+        link(rel="stylesheet" type="text/css" href="style.css")
         include mixins.jade
      
     body
+        
+        +meny()
+            
         .container
             .row
-                .col-md-4
-                    h2 Jade/Sass
-                ul.col-md-8.list-inline.margin-top.text-right
-                    li
-                        a(href=""): .glyphicon.glyphicon-envelope  Newsletter
-                    li
-                        a(href=""): .glyphicon.glyphicon-globe  RSS
-                    li    
-                        span  |
-                    li
-                        form.form-inline(role="form")
-                            .form-group
-                                lable.sr-only Email Address
-                                input.form-control(type="email", placeholder="Email Adress")
-                                buttom.btn.btn-default(type="submit") Sign up
-            nav.row
                 .col-sm-12
-                ul.nav.nav-tabs
-                    li.active: a(href="") Kaffe
-                    li: a(href="") Meny
-                    li: a(href="") Blogg
-                    li: a(href="") Om oss
-                    li: a(href="") Logg inn
-            .row
-                .col-sm-5
-                    include col-main
-                .col-sm-4
-                    include col-secondary.jade
-                .col-sm-3
+                    .forsidebilde
+                        img(src="bilder/forside.png")
+                
                     

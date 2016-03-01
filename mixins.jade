@@ -13,3 +13,23 @@ mixin tagblock()
             a(href="") lorem
             | , 
             a(href="") lorem
+            
+mixin meny()
+    .row
+        .pinline
+    .container
+        .row
+            .col-sm-4
+                .brand
+                    img(src="bilder/logo.png")
+            ul.col-md-8.list-inline.margin-top.text-right
+                li
+                    nav
+                        .col-sm-12
+                        ul.nav.nav-pills
+                            li.active: a(href="") Hjem
+                            li: a(href="") Kaffe
+                            li: a(href="") Meny
+                            li: a(href="") Blogg
+                            li: a(href="") Om oss
+                            li: a(href="") Logg inn
