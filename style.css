@@ -1,10 +1,14 @@
+html {
+  overflow-x: hidden; }
+
 li {
   list-style-type: none; }
 
 body {
   background-color: black;
   height: 100%;
-  color: white; }
+  color: white;
+  overflow-x: hidden; }
 
 .small-dark-title {
   background: #000;
@@ -14,6 +18,52 @@ body {
 
 img {
   max-width: 100%; }
+
+hr {
+  border-color: #232323; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #a04e43;
+  border-color: #a04e43; }
+  .btn-primary:focus, .btn-primary:hover, .btn-primary:active {
+    background-color: #5d5d5d;
+    box-shadow: none;
+    border-color: none; }
+
+.forsidebilde {
+  color: black;
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-image: url(bilder/forside.png);
+  background-size: auto 100%;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden; }
+  .forsidebilde .text-center {
+    margin-top: 350px; }
+
+.landingPageTekst {
+  margin-left: 10px;
+  max-height: 100%;
+  position: center;
+  margin-top: 20%; }
+
+article {
+  padding: 10px;
+  margin-top: 20px; }
+  article .btn-default {
+    border-color: #a04e43;
+    background-color: black;
+    color: white; }
+    article .btn-default:focus, article .btn-default:hover, article .btn-default:active {
+      background-color: #a04e43;
+      color: black;
+      border-color: black; }
+
+.patternNews {
+  background-image: url(bilder/striper.png); }
 
 .brand {
   position: relative;
@@ -46,28 +96,10 @@ img {
     text-decoration: none;
     background-color: #5d5d5d; }
 
-.forsidebilde {
-  color: black;
-  position: relative;
-  height: 400px;
-  width: 100%;
-  background-image: url(bilder/forside.png);
-  background-size: auto 100%;
-  background-position: top center;
-  background-attachment: fixed;
-  overflow: hidden; }
-
-.landingPageTekst {
-  margin-left: 10px;
-  max-height: 100%;
-  position: center;
-  margin-top: 20%; }
-
 .stripes {
   position: relative;
   height: 285px;
-  background-image: url(bilder/striper.png);
-  background-repeat: repeat-x; }
+  background-image: url(bilder/striper.png); }
 
 .espressoFremside {
   margin-top: 20%; }
@@ -80,3 +112,10 @@ img {
   background-color: #232323;
   padding: 20px;
   text-align: center; }
+
+.form-signin {
+  padding: 5px 15px 25px;
+  background-image: url(bilder/loginpattern.png); }
+
+input {
+  margin-bottom: 10px; }
