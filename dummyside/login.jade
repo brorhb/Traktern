@@ -1,0 +1,32 @@
+doctype html
+html(lang-no)
+    head
+        title Traktern
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width initial-scale=1.0")
+        link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
+        link(rel="stylesheet" type="text/css" href="style.css")
+        include mixins.jade
+     
+    body
+        
+        include meny
+        .container
+            .row
+                .col-sm-4.col-sm-offset-4
+                    form.form-signin
+                        h2.form-signin-heading Logg inn
+                        label.sr-only(for='inputEmail') Epost adresse
+                        input#inputEmail.form-control(type='email', placeholder='Epost addresse', required='', autofocus='')
+                        label.sr-only(for='inputPassword') Passord
+                        input#inputPassword.form-control(type='password', placeholder='Passord', required='')
+                        .checkbox
+                          label
+                            input(type='checkbox', value='remember-me')
+                            |  Husk meg
+                        button.btn.btn-lg.btn-primary.btn-block(type='submit') Logg inn
+                        button.btn.btn-lg.btn-primary.btn-block(type='submit') Ikke registrert?
+        
+        include footer
+                        

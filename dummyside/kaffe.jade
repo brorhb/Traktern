@@ -1,0 +1,42 @@
+doctype html
+html(lang-no)
+    head
+        title Traktern
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width initial-scale=1.0")
+        link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
+        link(rel="stylesheet" type="text/css" href="style.css")
+        include mixins.jade
+     
+    body
+        
+        include meny
+        
+        header.kaffeHeader
+            .col-sm-4
+                .col-md-offset-2
+                    .landingPageTekst
+                        h1
+                            strong Kaffen vår
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        .row.pattern2
+            .col-sm-4.col-md-offset-7
+                h2.text-right
+                    strong Slik brygger du
+                p Det er overraskende i hvor stor grad ulike bryggemetoder kan forsterke bestemte egenskaper i kaffen din. La oss hjelpe deg å åpne opp hele potensialet i kaffen din, slik at du får en perfekt kopp kaffe hver gang.
+                p Ta vårt e-lærings kurs for å lære hvordan du lager din egen kaffe!
+                button.btn.btn-lg.btn-primary.btn-block(type='submit') Klikk her
+    
+        .row
+            .beans
+                .col-sm-4
+                    .col-md-offset-2
+                        .landingPageTekst
+                            h1 Våre råvarer
+                            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        
+        include footer
+    
+        
+        

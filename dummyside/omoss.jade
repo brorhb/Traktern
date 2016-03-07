@@ -1,0 +1,43 @@
+doctype html
+html(lang-no)
+    head
+        title Traktern
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width initial-scale=1.0")
+        link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
+        link(rel="stylesheet" type="text/css" href="style.css")
+        include mixins.jade
+     
+    body
+        
+        include meny
+        
+        //HEADER
+        //HEADER
+        header.forsidebilde
+            .col-sm-3
+                .col-md-offset-2
+                    .landingPageTekst
+                        h1
+                            strong Om oss
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
+        //HEADER
+        //HEADER
+
+        //ÅPNINGSTIDER
+        //ÅPNINGSTIDER
+        .row.pattern2
+            .col-sm-5.col-sm-offset-2
+                iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.9098922767741!2d10.725188216316193!3d59.91704278186834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416dd779ba357b%3A0x677038c9acc2591c!2sDet+Kongelige+Slott!5e0!3m2!1sno!2sno!4v1456921437886', width='300', height='285')
+            .col-sm-2
+                h3 Adresse
+                p Slottet 0001 OSLO
+                h3 Kontaktinformasjon
+                p Telefon: 99999999
+                p epost: tn-drift@live.no?
+                    
+        //ÅPNINGSTIDER
+        //ÅPNINGSTIDER
+
+        include footer

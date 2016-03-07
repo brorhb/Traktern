@@ -1,0 +1,30 @@
+doctype html
+html(lang-no)
+    head
+        title Traktern
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width initial-scale=1.0")
+        link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS', crossorigin='anonymous')
+        link(rel="stylesheet" type="text/css" href="style.css")
+        include mixins.jade
+     
+    body
+        
+        include meny
+        
+        .row
+            .col-md-3.col-md-offset-3
+                a(href='kafeMeny.html')
+                    .kafeBilde
+                        img(src="bilder/kafe.jpg", alt="kafe storgaten")
+                    h2 Kafe storgaten
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+            .col-md-3
+                a(href='kafeMeny.html')
+                    .kafeBilde
+                        img(src="bilder/kafe.jpg", alt="kafe sjøsiden")
+                    h2 Kafe sjøsiden
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    
+        include footer
