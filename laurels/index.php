@@ -8,7 +8,7 @@ get_header();
     <div class="container webpage-container">
     	<article class="blog-article">
             <div class="col-md-9 col-sm-8 blog-page">
-		<?php if ( have_posts() ) :	while ( have_posts() ) : the_post(); ?>
+		<?php query_posts('cat=3'); if ( have_posts() ) :	while ( have_posts() ) : the_post(); ?>
                 <div class="blog">
                     <div class="blog-data">
                         <div class="blog-date text-center">

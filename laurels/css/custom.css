@@ -30,10 +30,77 @@ p {
 }
 .pattern2 {
     background-image: url(../images/pattern2.png);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 section {
     background-color: black;
 }
+
+/* GRID */
+/* GRID */
+.ramme {
+    color: white;
+	width:100%;
+	margin:auto;
+    margin-top: 20px;
+}
+
+.indre_ramme_header {
+	font-size:2em;
+}
+
+.indre_ramme {
+	width:100%;
+	float:left;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.lesmer {
+}
+
+.indre_ramme + .indre_ramme {
+	margin-left:20px;
+}
+.news-single {
+}
+.news-single-title {
+}
+/* GRID */
+/* GRID */
+.btn-default {
+    border-color: #a04e43;
+    background-color: black;
+    color: white;
+}
+.btn-default:hover{
+    color: black;
+    background-color:#a04e43;
+    border-color:#a04e43;
+}
+/* BLOGGPOST */
+/* BLOGGPOST */
+.single_bg{
+    color: black;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-image: url(../images/pattern2.png);
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden; }
+    .single_bg .text-center {
+      margin-top: 150px; }
+    .single_bg h1 {
+      color: white; }
+    .single_bg p {
+      color: white; }
+}
+/* BLOGGPOST */
+/* BLOGGPOST */
+
 /* MINE KLASSER */
 /* MINE KLASSER */
 
@@ -267,7 +334,7 @@ margin: 0;
 }
 .color_txt:active,
 .color_txt:focus{
-	color:#12bbd5;
+	color:#212226;
 	text-decoration:none;
 }
 .section_row_1 > h2{
@@ -589,7 +656,7 @@ top: 55px;
 	text-decoration:none;
 }
 .heading{
-	color:#010101;
+	color:#a04e43;
 }
 .our-work{
     border-radius: 50%;
@@ -760,6 +827,8 @@ top: 55px;
 	padding: 8px 10px;
 	text-transform: uppercase;
 	margin-bottom:5px;
+    background-color: black;
+    color: white;
 }
 .blog-breadcumb li a
 {
@@ -795,7 +864,7 @@ top: 55px;
 blog-breadcumb li a:focus,
 .blog-info > a:hover,
 .blog-info > a:focus{
-	color: #12bbd5;
+	color: #535353;
 }
 .blog-content p{
 	line-height:1.7;
@@ -936,6 +1005,7 @@ blog-breadcumb li a:focus,
 }
 a:hover,a:focus{
 	text-decoration:none;
+    color: #535353;
 }
 .comments-box span > a{
 	float:right;
@@ -1140,7 +1210,7 @@ a:hover,a:focus{
 .laurels_menu_bg{
     color: black;
     position: relative;
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-image: url(../images/bg2.png);
     background-size: auto 100%;

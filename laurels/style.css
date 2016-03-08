@@ -31,7 +31,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
     transition: all 0.5s ease-in-out 0s;
 }
 .comment-form .comment-form-comment textarea {
-    color: #747474;
+	color: white;
+	background-color: #535353;
+	border-color: black;
 }
 .breadcrumb.blog-breadcumb > a {
     color: #535353;
@@ -39,7 +41,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
     margin-right: 5px;
 }
 .breadcrumb.blog-breadcumb > a:hover {
-    color: #12bbd5;
+    color: #a04e43;
 }
 .blog-breadcumb a:after {
     color: #535353;
@@ -60,11 +62,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 .site-breadcumb  a,
 .list-breadcumb  a {
-    color: #1e1e1e;
+    color: white;
     text-transform: capitalize;
 }
 .site-breadcumb  a:hover {
-    color: #12bbd5;
+    color: #a04e43;
 }
 .media-object {
     height: auto;
@@ -86,7 +88,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 #commentform input[type="submit"] {
-    background-color: #017c9b;
+    background-color: #a04e43;
     border: 0 none;
     border-radius: 0;
     color: #fff;
@@ -192,7 +194,7 @@ dd {
 }
 
 .laurels-default-pagination {
-    background-color: #f1f1f1;
+    background-color: black;
     clear: both;
     display: table;
     margin-bottom: 15px;
@@ -200,16 +202,16 @@ dd {
     width: 100%;
 }
 .laurels-previous-link {
-    color:  #12bbd5;
+    color:  #a04e43;
     float: left;
 }
 .laurels-next-link {
-    color:  #12bbd5;
+    color:  #a04e43;
     float: right;
 }
 .laurels-next-link a,
 .laurels-previous-link a {
-    color: #12bbd5;
+    color: #a04e43;
 }
 /* End pagination */
 .media_left > .media-body > p > a {
