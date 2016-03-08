@@ -14,6 +14,30 @@ html{
     background-color: black;
 }
 
+/* MINE KLASSER */
+/* MINE KLASSER */
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+p {
+    color: white;
+}
+.pattern1 {
+    background-image: url(../images/pattern1.png);
+}
+.pattern2 {
+    background-image: url(../images/pattern2.png);
+}
+section {
+    background-color: black;
+}
+/* MINE KLASSER */
+/* MINE KLASSER */
+
+
 body{
 	width:100%;
 	margin:0;
