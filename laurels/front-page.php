@@ -11,7 +11,7 @@ get_header(); ?>
                 <?php
                     $args = array(
                     'posts_per_page' => 1,
-                    'cat' => 'forsidetekst',
+                    'cat' => '4',
                     );
                     $the_query = new WP_Query( $args );
 
@@ -66,6 +66,9 @@ get_header(); ?>
                             </div>
                         </div>
         </div>
+        <div class="col-md-3 visible-md-*">
+            <div class="kaffe"></div>
+        </div>
               <?php endwhile; ?>
                     <div class="comments">
     					 <?php comments_template( '', true ); ?>
@@ -96,8 +99,10 @@ get_header(); ?>
                             <h2><a href='<?php the_permalink(); ?>'><?php the_title(); ?></a></h2>
                         </div>
                         <div class="indre_ramme">
-                            <?php the_content(); ?>
+                            <?php the_excerpt(); ?>
                             <a href="<?php the_permalink(); ?>" class="btn btn-default pull-right" role="button">Les mer</a>
+                        </br>
+                            <hr class="visible-xs visible-sm">
                         </div>
                         </div>
                 <?php

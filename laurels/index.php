@@ -32,6 +32,8 @@ get_header();
                         <div class="blog-content">
                             <?php the_excerpt(); ?>
                         </div>
+                        <a class="btn btn-default pull-right" href="<?php echo  esc_url(get_permalink()); ?>">Les mer</a></br>
+                        <hr>
                     </div>
                 </div>
 		<?php endwhile; endif; // end of the loop. ?>

@@ -16,6 +16,9 @@ html{
 
 /* MINE KLASSER */
 /* MINE KLASSER */
+hr {
+    border-color: #535353;
+}
 h2 {
     color: white;
 }
@@ -36,6 +39,12 @@ p {
 }
 section {
     background-color: black;
+}
+ul,li {
+    list-style-type: none;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
 }
 
 /* GRID */
@@ -100,7 +109,14 @@ section {
 }
 /* BLOGGPOST */
 /* BLOGGPOST */
-
+.kaffe {
+    image: url(../images/kaffe.png);
+    height: 135px;
+    width: 238px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
 /* MINE KLASSER */
 /* MINE KLASSER */
 
@@ -585,7 +601,7 @@ margin: 0;
 	margin-left:18px;
 }
 .media-body a{
-	color:#12bbd5;
+	color:#a04e43;
 	text-transform: capitalize;
 }
 .media-body a:hover{
@@ -842,7 +858,7 @@ top: 55px;
 /*	margin-bottom:30px;	 */
 	float: left;
 	width:100%;
-
+    background-color: black;
 }
 .blog-breadcumb li{
 	font-size:13px;
@@ -977,20 +993,22 @@ blog-breadcumb li a:focus,
 }
 .comments h2{
 	font-size:30px;
-	color:#2e2e2e;
+	color:#a04e43;
 	margin-bottom:25px;
 	margin-top:10px;
-	text-transform: capitalize;
+/*text-transform: capitalize; */
 }
 .comments-box{
-	border:1px solid #dddddd;
-	padding:15px 10px 30px 15px;
-	margin-bottom:22px;
+    border: 1px solid #535353;
+    background-color: #535353;
+    color: white;
+    padding: 15px 10px 30px 15px;
+    margin-bottom: 22px;
 }
 .comments-box p{
 	padding:15px 0 0 10px;
 	font-size:15px;
-	color:#2e2e2e;
+	color:white;
 	text-transform: capitalize;
 }
 .comment-media h4 a{

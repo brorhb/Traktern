@@ -1,10 +1,36 @@
 <?php
+
+/* READ MORE LINK */
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+function modify_read_more_link() {
+return '<a class="more-link" href="' . get_permalink() . '"></a>';
+}
+/* READ MORE LINK */
+
+/* Kommentarfelt */
+/* Kommentarfelt */
+$comments_args = array(
+        // change the title of send button
+        'label_submit'=>'Send',
+        // change the title of the reply section
+        'title_reply'=>'Skriv her',
+        // remove "Text or HTML to be displayed after the set of comment fields"
+        'comment_notes_after' => '',
+        // redefine your own textarea (the comment body)
+        'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label><br /><textarea id="comment" name="comment" aria-required="true"></textarea></p>',
+);
+
+comment_form($comments_args);
+/* Kommentarfelt */
+/* Kommentarfelt */
+
+
 /*
  * Theme function file.
  */
 if ( ! function_exists( 'laurels_setup' ) ) :
 function laurels_setup() {
-	
+
 	global $content_width;
 	if ( ! isset( $content_width ) ) {
 		$content_width = 770;
@@ -111,7 +137,7 @@ function laurels_widgets_init() {
 		'before_title'  => '<h4 class="no-padding text-left">',
 		'after_title'   => '</h4>',
 	) );
-	
+
 	register_sidebar( array(
 		'name'          => __( 'Footer Area Two', 'laurels' ),
 		'id'            => 'footer-2',
@@ -121,7 +147,7 @@ function laurels_widgets_init() {
 		'before_title'  => '<h4 class="no-padding text-left">',
 		'after_title'   => '</h4>',
 	) );
-	
+
 	register_sidebar( array(
 		'name'          => __( 'Footer Area Three', 'laurels' ),
 		'id'            => 'footer-3',
@@ -169,7 +195,7 @@ function laurels_comment_placeholders( $fields )
                 )
             . '"',
         $fields['email']
-        
+
     );
     return $fields;
 }
@@ -195,7 +221,7 @@ function laurels_add_ie_html5_shim () {
 	echo '<script src="' . get_template_directory_uri() . '/js/html5shiv.js"></script>';
 	echo '<![endif]-->';
 }
-add_action('wp_head', 'laurels_add_ie_html5_shim'); 
+add_action('wp_head', 'laurels_add_ie_html5_shim');
 
 
 /*** Enqueue css and js files ***/
