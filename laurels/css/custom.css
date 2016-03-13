@@ -14,111 +14,7 @@ html{
     background-color: black;
 }
 
-/* MINE KLASSER */
-/* MINE KLASSER */
-hr {
-    border-color: #535353;
-}
-h2 {
-    color: white;
-}
-h3 {
-    color: white;
-}
-p {
-    color: white;
-}
-.pattern1 {
-    background-image: url(../images/pattern1.png);
-}
-.pattern2 {
-    background-image: url(../images/pattern2.png);
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-section {
-    background-color: black;
-}
-ul,li {
-    list-style-type: none;
-    list-style-position:inside;
-    margin:0;
-    padding:0;
-}
 
-/* GRID */
-/* GRID */
-.ramme {
-    color: white;
-	width:100%;
-	margin:auto;
-    margin-top: 20px;
-}
-
-.indre_ramme_header {
-	font-size:2em;
-}
-
-.indre_ramme {
-	width:100%;
-	float:left;
-    padding: 10px;
-    margin-bottom: 50px;
-}
-
-.lesmer {
-}
-
-.indre_ramme + .indre_ramme {
-	margin-left:20px;
-}
-.news-single {
-}
-.news-single-title {
-}
-/* GRID */
-/* GRID */
-.btn-default {
-    border-color: #a04e43;
-    background-color: black;
-    color: white;
-}
-.btn-default:hover{
-    color: black;
-    background-color:#a04e43;
-    border-color:#a04e43;
-}
-/* BLOGGPOST */
-/* BLOGGPOST */
-.single_bg{
-    color: black;
-    position: relative;
-    height: 200px;
-    width: 100%;
-    background-image: url(../images/pattern2.png);
-    background-position: top center;
-    background-attachment: fixed;
-    overflow: hidden; }
-    .single_bg .text-center {
-      margin-top: 150px; }
-    .single_bg h1 {
-      color: white; }
-    .single_bg p {
-      color: white; }
-}
-/* BLOGGPOST */
-/* BLOGGPOST */
-.kaffe {
-    image: url(../images/kaffe.png);
-    height: 135px;
-    width: 238px;
-    position: relative;
-    bottom: 0;
-    right: 0;
-}
-/* MINE KLASSER */
-/* MINE KLASSER */
 
 
 body{
@@ -796,7 +692,7 @@ top: 55px;
 	padding-right:35px;
 }
 .blog-article{
-	margin:50px 0 45px;
+	margin:10px 0 10px;
 }
 .blog-rightsidebar-img img{
 	float: left;
@@ -858,7 +754,6 @@ top: 55px;
 /*	margin-bottom:30px;	 */
 	float: left;
 	width:100%;
-    background-color: black;
 }
 .blog-breadcumb li{
 	font-size:13px;

@@ -15,6 +15,155 @@ Text Domain: laurels
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+.coffee_bg{
+    color: white;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image: url(images/coffeebeans.jpg);
+    background-size: 125% auto;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.forside_bg{
+    color: white;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image: url(images/bg3.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+@media (max-width: 1000px) {
+
+    .forside_bg {
+        background-size: 1366px 912px; /* Force the image to its minimum width */
+    }
+	.coffee_bg {
+		background-size: 1366px 911px;
+	}
+}
+.blog_bg{
+    color: black;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-image: url(images/blog.jpg);
+    background-size: 165% auto;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+/* MINE KLASSER */
+/* MINE KLASSER */
+hr {
+    border-color: #535353;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+p {
+    color: white;
+}
+.pattern1 {
+    background-image: url(images/pattern1.png);
+}
+.pattern2 {
+    background-image: url(images/pattern2.png);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+section {
+    background-color: black;
+}
+ul,li {
+    list-style-type: none;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
+}
+
+/* GRID */
+/* GRID */
+.ramme {
+    color: white;
+	width:100%;
+	margin:auto;
+    margin-top: 20px;
+}
+
+.indre_ramme_header {
+	font-size:2em;
+}
+
+.indre_ramme {
+	width:100%;
+	float:left;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.lesmer {
+}
+
+.indre_ramme + .indre_ramme {
+	margin-left:20px;
+}
+.news-single {
+}
+.news-single-title {
+}
+/* GRID */
+/* GRID */
+.btn-default {
+    border-color: #a04e43;
+    background-color: black;
+    color: white;
+}
+.btn-default:hover{
+    color: black;
+    background-color:#a04e43;
+    border-color:#a04e43;
+}
+/* BLOGGPOST */
+/* BLOGGPOST */
+.single_bg{
+    color: black;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-image: url(images/pattern2.png);
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden; }
+    .single_bg .text-center {
+      margin-top: 150px; }
+    .single_bg h1 {
+      color: white; }
+    .single_bg p {
+      color: white; }
+}
+
+/* BLOGGPOST */
+/* BLOGGPOST */
+.kaffe {
+    image: url(images/kaffe.png);
+    height: 135px;
+    width: 238px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+	margin-top: 10px;
+}
+/* MINE KLASSER */
+/* MINE KLASSER */
 
 .bottom-footer{
 	color:#fff;

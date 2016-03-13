@@ -1,9 +1,12 @@
 <?php
 
 /* READ MORE LINK */
-add_filter( 'the_content_more_link', 'modify_read_more_link' );
-function modify_read_more_link() {
-return '<a class="more-link" href="' . get_permalink() . '"></a>';
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+function wpdocs_excerpt_more( $more ) {
+    return sprintf( '<a href="">%2$s</a>',
+        get_permalink( get_the_ID() ),
+        __( '', 'textdomain' )
+    );
 }
 /* READ MORE LINK */
 

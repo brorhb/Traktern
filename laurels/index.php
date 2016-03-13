@@ -5,6 +5,12 @@
 get_header();
 ?>
 <section>
+    <div class="blog_bg">
+        <div class="container webpage-container">
+            </br>
+            <h1>Blogg</h1>
+        </div>
+    </div>
     <div class="container webpage-container">
     	<article class="blog-article">
             <div class="col-md-9 col-sm-8 blog-page">

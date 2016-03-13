@@ -26,7 +26,7 @@ $laurels_options = get_option('laurels_theme_options');
   </head>
   <body <?php body_class(); ?>>
     <header>
-      <div class="header_top">
+      <div class="header_top hidden-xs hidden-sm">
         <div class="container webpage-container">
           <div class="col-md-12 no-padding top-header">
             <div class="col-md-7 col-sm-5"></div>

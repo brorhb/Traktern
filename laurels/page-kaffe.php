@@ -4,14 +4,14 @@
  */
 get_header(); ?>
 <section>
-    <div class="forside_bg">
+    <div class="coffee_bg">
     	<div class="webpage-container container">
         	<div class="laurels_menu">
             <div class="col-sm-4 col-md-4">
                 <?php
                     $args = array(
                     'posts_per_page' => 1,
-                    'cat' => '4',
+                    'cat' => '5',
                     );
                     $the_query = new WP_Query( $args );
 
@@ -31,9 +31,7 @@ get_header(); ?>
                     wp_reset_postdata();
                     ?>
             </div>
-            <div class="breadcrumb site-breadcumb">
-				<?php if (function_exists('laurels_custom_breadcrumbs')) laurels_custom_breadcrumbs(); ?>
-            </div>
+
             </div>
     	</div>
     </div>
@@ -41,9 +39,11 @@ get_header(); ?>
         <div class="container webpage-container">
         	<article class="blog-article">
 
+        <div class="col-md-3 hidden-xs">
+            <img src="http://136147-www.web.tornado-node.net/wp-content/themes/laurels/images/kaffe.png" alt="kaffekopp">
+        </div>
 
-
-    	<div id="post-<?php the_ID(); ?>" <?php post_class("col-md-9 col-sm-8 blog-page"); ?>>
+    	<div id="post-<?php the_ID(); ?>" <?php post_class("col-md-6 col-sm-8 col-md-offset-3 blog-page"); ?>>
           <?php while ( have_posts() ) : the_post(); ?>
           <?php $laurels_image = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ); ?>
                     <div class="blog">
@@ -64,10 +64,11 @@ get_header(); ?>
     										'after' => '</div>',
     									) ); ?>
                             </div>
+                            <a href="http://www.lynda.com" class="btn btn-default pull-right" role="button">Lær mer</a>
                         </div>
         </div>
-        <div class="col-md-3 hidden-xs">
-            <div class="kaffe"><img src="http://136147-www.web.tornado-node.net/wp-content/themes/laurels/images/kaffe.png" alt="kaffekopp"></div>
+        <div class="col-md-3 visible-md-*">
+            <div class="kaffe"></div>
         </div>
               <?php endwhile; ?>
                     <div class="comments">
