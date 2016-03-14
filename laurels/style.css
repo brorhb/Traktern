@@ -26,6 +26,28 @@ Use it to make something cool, have fun, and share what you've learned with othe
     background-attachment: fixed;
     overflow: hidden;
 }
+.meny_bg{
+    color: white;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image: url(images/menybg.jpg);
+    background-size: 125% auto;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.mapbg{
+    color: white;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image: url(images/mapbg.jpeg);
+    background-size: 125% auto;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
 .forside_bg{
     color: white;
     position: relative;
@@ -107,7 +129,8 @@ ul,li {
 	width:100%;
 	float:left;
     padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    overflow-x: hidden;
 }
 
 .lesmer {
@@ -161,6 +184,9 @@ ul,li {
     bottom: 0;
     right: 0;
 	margin-top: 10px;
+}
+.kaffe img {
+    margin-top: 65px;
 }
 /* MINE KLASSER */
 /* MINE KLASSER */
