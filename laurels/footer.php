@@ -1,4 +1,4 @@
-<div class="hidden-xs hidden-sm">
+<div class="hidden">
 	<?php
 	/**
 	 * Footer For Laurels Theme.
