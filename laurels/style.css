@@ -67,6 +67,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	.coffee_bg {
 		background-size: 1366px 911px;
 	}
+    .mapbg {
+        background-size: 1377px 1071px;
+    }
+    .meny_bg {
+        background-size: 1377px 918px;
+    }
+    .blog_bg {
+        background-size: 1377px auto;
+    }
 }
 .blog_bg{
     color: white;
@@ -102,6 +111,9 @@ p {
     width: 100%;
     overflow: hidden;
 }
+.pattern2 p, h2, h3 {
+    opacity: 0.8;
+}
 section {
     background-color: black;
 }
@@ -120,6 +132,9 @@ ul,li {
 	margin:auto;
     margin-top: 20px;
 }
+.ramme h1 {
+    opacity: 0.8;
+}
 
 .indre_ramme_header {
 	font-size:2em;
@@ -129,7 +144,6 @@ ul,li {
 	width:100%;
 	float:left;
     padding: 10px;
-    margin-bottom: 30px;
     overflow-x: hidden;
 }
 
