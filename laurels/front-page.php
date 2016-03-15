@@ -49,21 +49,17 @@ get_header(); ?>
             </ul>
             
             <div id="storgata" class="panel active">
-                <ul>
-                    <li>Mandag – fredag: 10-20</li>
-                    <li>Lørdag: 10-18</li>
-                    <li>Søndag: stengt</li>
-                </ul>
+                Mandag – fredag: 10-20</br>
+                Lørdag: 10-18</br>
+                Søndag: stengt
             </div>
             
             <div id="sjosiden" class="panel">
-                <ul>
-                    <li>mandag 08-18</li>
-                    <li>tirsdag-torsdag 08-20</li>
-                    <li>fredag 08-18</li>
-                    <li>lørdag 10-18</li>
-                    <li>søndag 10-18</li>
-                </ul>
+                mandag 08-18</br>
+                tirsdag-torsdag 08-20</br>
+                fredag 08-18</br>
+                lørdag 10-18</br>
+                søndag 10-18
             </div>
             
         </div>

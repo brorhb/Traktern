@@ -23,13 +23,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 .pattern2 .tabs li {
-    display: inline
+    display: inline-block;
 }
 
 .pattern2 .panel {
     width: auto;
     height: auto;
-    display: block;
+    display: inline-block;
 }
 
 /* åpningstider */
