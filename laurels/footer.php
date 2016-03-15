@@ -1,11 +1,11 @@
-<div class="hidden-xs hidden-sm">
+<div class="">
 	<?php
 	/**
 	 * Footer For Laurels Theme.
 	 */
 	$laurels_options = get_option( 'laurels_theme_options' );
 	?>
-	<footer>
+	<footer class="hidden">
 		<!-- <div class="section_bottom">
 	    	<div class="container webpage-container">
 	        	<div class="col-sm-4 col-md-4 no-padding column-footer">

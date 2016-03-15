@@ -51,7 +51,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .forside_bg{
     color: white;
     position: relative;
-    height: 300px;
+    height: 415px;
     width: 100%;
     background-image: url(images/bg3.jpg);
     background-size: 100%;
@@ -69,11 +69,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	}
 }
 .blog_bg{
-    color: black;
+    color: white;
     position: relative;
     height: 200px;
     width: 100%;
-    background-image: url(images/blog.jpg);
+    background-image: url(images/blogbg.jpg);
     background-size: 165% auto;
     background-position: top center;
     background-attachment: fixed;
