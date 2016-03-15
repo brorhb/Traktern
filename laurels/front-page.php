@@ -45,7 +45,7 @@ get_header(); ?>
             <h3>Åpningstider</h3>
             <ul class="tabs">
                 <li rel="storgata" class="active">Storgata</li>
-                <li rel="sjøsiden">Sjøsiden</li>
+                <li rel="sjosiden">Sjøsiden</li>
             </ul>
             
             <div id="storgata" class="panel active">
@@ -56,7 +56,7 @@ get_header(); ?>
                 </ul>
             </div>
             
-            <div id="sjøsiden" class="panel">
+            <div id="sjosiden" class="panel">
                 <ul>
                     <li>mandag 08-18</li>
                     <li>tirsdag-torsdag 08-20</li>
