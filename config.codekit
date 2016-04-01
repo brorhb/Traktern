@@ -668,6 +668,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/laurels\/images\/bg3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 332524,
+		"inputAbbreviatedPath": "\/laurels\/images\/bg3.jpg",
+		"outputAbbreviatedPath": "\/laurels\/images\/bg3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/laurels\/images\/blog.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 436968,
+		"inputAbbreviatedPath": "\/laurels\/images\/blog.jpg",
+		"outputAbbreviatedPath": "\/laurels\/images\/blog.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/laurels\/images\/blogbg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317597,
+		"inputAbbreviatedPath": "\/laurels\/images\/blogbg.jpg",
+		"outputAbbreviatedPath": "\/laurels\/images\/blogbg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/laurels\/images\/coffeebeans.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 591440,
+		"inputAbbreviatedPath": "\/laurels\/images\/coffeebeans.jpg",
+		"outputAbbreviatedPath": "\/laurels\/images\/coffeebeans.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/laurels\/images\/dash-line.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -701,6 +745,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/laurels\/images\/kaffe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30533,
+		"inputAbbreviatedPath": "\/laurels\/images\/kaffe.jpg",
+		"outputAbbreviatedPath": "\/laurels\/images\/kaffe.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/laurels\/images\/kaffe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10451,
+		"inputAbbreviatedPath": "\/laurels\/images\/kaffe.png",
+		"outputAbbreviatedPath": "\/laurels\/images\/kaffe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/laurels\/images\/lo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -723,6 +789,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/laurels\/images\/mapbg.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 419020,
+		"inputAbbreviatedPath": "\/laurels\/images\/mapbg.jpeg",
+		"outputAbbreviatedPath": "\/laurels\/images\/mapbg.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/laurels\/images\/menybg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 614020,
+		"inputAbbreviatedPath": "\/laurels\/images\/menybg.jpg",
+		"outputAbbreviatedPath": "\/laurels\/images\/menybg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/laurels\/images\/next.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -730,6 +818,28 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/laurels\/images\/next.png",
 		"outputAbbreviatedPath": "\/laurels\/images\/next.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/laurels\/images\/pattern1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20501,
+		"inputAbbreviatedPath": "\/laurels\/images\/pattern1.png",
+		"outputAbbreviatedPath": "\/laurels\/images\/pattern1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/laurels\/images\/pattern2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 504,
+		"inputAbbreviatedPath": "\/laurels\/images\/pattern2.png",
+		"outputAbbreviatedPath": "\/laurels\/images\/pattern2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -918,6 +1028,51 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/laurels\/page-15.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/laurels\/page-15.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/laurels\/page-kaffe.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/laurels\/page-kaffe.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/laurels\/page-meny.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/laurels\/page-meny.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/laurels\/page-sjosiden.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/laurels\/page-sjosiden.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/laurels\/page-storgaten.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/laurels\/page-storgaten.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/laurels\/page-template\/full-width.php": {
 		"fileType": 8192,
