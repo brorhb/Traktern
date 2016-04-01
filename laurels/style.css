@@ -15,6 +15,17 @@ Text Domain: laurels
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+.main-menu-ul ul li.current-menu-item a:link,
+.main-menu-ul ul li.current-menu-item a:visited {
+    background-color: #2b2b2b;
+    color: #a04e43;
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
 .coffee_bg{
     color: white;
     position: relative;
@@ -60,7 +71,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     overflow: hidden;
 }
 @media (max-width: 1000px) {
-
     .forside_bg {
         background-size: 1366px 912px; /* Force the image to its minimum width */
     }
@@ -75,6 +85,23 @@ Use it to make something cool, have fun, and share what you've learned with othe
     }
     .blog_bg {
         background-size: 1377px auto;
+    }
+    section {
+        background-color: black;
+    }
+    header {
+        position: relative;
+    }
+}
+@media (min-width: 1000px) {
+    section {
+        margin-top: 70px;
+    }
+}
+@media (max-width: 480px) {
+    .main_menu {
+        margin-top: -37px;
+        background-color: rgba(0, 0, 0, 0.0);
     }
 }
 .blog_bg{
