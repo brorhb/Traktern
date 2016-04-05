@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+.red {
+  color: #a04e43;
+  opacity: 2; }
+
 html {
   background-color: black; }
 
@@ -8,6 +12,9 @@ h1 {
 body {
   font-family: "Roboto", sans-serif;
   background-color: black; }
+
+h4 {
+  color: white; }
 
 header {
   position: relative;
@@ -44,7 +51,8 @@ input {
 
 .btn {
   background-color: #a04e43;
-  border-color: #a04e43; }
+  border-color: #a04e43;
+  margin-bottom: 8px; }
 
 .btn:active {
   background-color: #2b2b2b;
@@ -54,13 +62,16 @@ input {
   background-color: #2b2b2b;
   border-color: #2b2b2b; }
 
-.btn:visited {
-  background-color: #2b2b2b;
-  border-color: #2b2b2b; }
-
 .btn:hover {
   background-color: #8f453b;
   border-color: #8f453b; }
+
+.btn-default {
+  border-color: #a04e43;
+  background-color: black;
+  color: white;
+  margin-bottom: 8px;
+  float: right; }
 
 footer {
   height: 100px;
@@ -71,3 +82,35 @@ footer {
   footer img {
     height: 90px;
     width: auto; }
+
+.profilbilde {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("http://136147-www.web.tornado-node.net/quiz/images/ape.jpg"); }
+
+.progresjonEn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 16px;
+  border-radius: 5px;
+  width: 60%;
+  background-color: #48956c; }
+
+.progresjonTo {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 16px;
+  border-radius: 5px;
+  width: 80%;
+  background-color: #48956c; }
+
+.progresjonTre {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 16px;
+  border-radius: 5px;
+  width: 30%;
+  background-color: #48956c; }

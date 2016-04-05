@@ -1,0 +1,37 @@
+doctype html
+html(lang="no")
+    head
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, user-scalable=no')
+        link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
+        link(rel='stylesheet', href='../wp-content/themes/laurels/style.css')
+        link(rel='stylesheet', href='css/style.css')
+
+    body
+        header
+            .books_bg
+                .overlay
+                    .container-fluid
+                        .col-md-3
+                            a(href='http://136147-www.web.tornado-node.net/quiz/index.html?') 
+                                p.red <-- Tilbake
+                            h1 Registrer deg
+                            p Registrer deg å få tilgang på våre kaffekurs helt gratis! På denne måten kan du øke kaffenytelsen din hjemme, og vite litt mer om hva baristaer gjør med kaffen din.
+        .container-fluid
+            .col-md-6.col-md-offset-3.box
+                a(href='http://136147-www.web.tornado-node.net/quiz/index.html?') 
+                    p.red <-- Tilbake
+                h3 Registrer deg
+                form.form-signin
+                    label.sr-only(for='inputEmail') Epost adresse
+                    input#inputEmail.form-control(type='email', placeholder='Epost addresse', required='', autofocus='')
+                    label.sr-only(for='inputPassword') Passord
+                    input#inputPassword.form-control(type='password', placeholder='Passord', required='')
+                    label.sr-only(for='inputPassword') Bekreft passord
+                    input#inputPassword.form-control(type='password', placeholder='Bekreft passord', required='')
+                    .checkbox
+                      label
+                        input(type='checkbox', value='remember-me')
+                        |  Husk meg
+                    a.btn.btn-lg.btn-default.btn-block(type='submit' href='loggetinn.html') Registrer deg og logg inn
+                
