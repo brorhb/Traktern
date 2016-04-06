@@ -1292,6 +1292,66 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/quiz\/caffelatte\/infoCaffeLatte.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/caffelatte\/infoCaffeLatte.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quiz\/caffelatte\/infoCaffeLatte.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/caffelatte\/infoCaffeLatte.jade",
+		"outputAbbreviatedPath": "\/quiz\/caffelatte\/infoCaffeLatte.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/quiz\/caffelatte\/quiz.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/caffelatte\/quiz.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quiz\/caffelatte\/quiz.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/caffelatte\/quiz.jade",
+		"outputAbbreviatedPath": "\/quiz\/caffelatte\/quiz.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/quiz\/caffelatte\/video.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/caffelatte\/video.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quiz\/caffelatte\/video.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/caffelatte\/video.jade",
+		"outputAbbreviatedPath": "\/quiz\/caffelatte\/video.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/quiz\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1363,17 +1423,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/quiz\/index.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/index.jade",
-		"outputAbbreviatedPath": "\/quiz\/index.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
 	"\/quiz\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1392,27 +1441,16 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/quiz\/loggetinn.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/loggetinn.jade",
-		"outputAbbreviatedPath": "\/quiz\/loggetinn.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
-		},
-	"\/quiz\/mixins.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
+	"\/quiz\/min\/funksjoner-min.js": {
+		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/quiz\/mixins.jade",
-		"outputAbbreviatedPath": "\/quiz\/mixins.html",
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/min\/funksjoner-min.js",
+		"outputAbbreviatedPath": "\/quiz\/min\/min\/funksjoner-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/quiz\/registrer.html": {
 		"fileType": 8192,
@@ -1423,17 +1461,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/quiz\/registrer.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/registrer.jade",
-		"outputAbbreviatedPath": "\/quiz\/registrer.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
 	"\/quiz\/registrer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1442,22 +1469,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/quiz\/style.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/style.sass",
-		"outputAbbreviatedPath": "\/quiz\/css\/style.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": false
 		}
 	},
 "hooks": [
