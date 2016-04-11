@@ -14,8 +14,8 @@
           <div class="container-fluid">
             <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.html">
                 <p class="red"><-- Tilbake til start</p></a>
-              <h1>Americano</h1>
-              <p>I dette kurset vil du lære å lage Americano. Americano er den mest kjente kaffedrikken her til lands, den kan minne om vanlig traktekaffe. Forskjellen er at man bruker espresso bønner som er kvernet og blandet med varmt vann. Americano stammer originalt i fra Latin-Amerika.</p>
+              <h1>Cortado</h1>
+              <p>I dette kurset vil du lære å lage cortado. Cortado stammer originalt i fra Spania og er en kaffetype som er meget kjent her til lands. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage cortado.</p>
             </div>
           </div>
         </div>
@@ -25,9 +25,13 @@
       <div class="col-sm-7">
         <div class="col-sm-12 box">
           <div class="col-sm-12">
-            <h3>Americano</h3>
-            <h4>Prøve</h4>
-            <p>Prøv dine kaffe kunskaper i denne lille prøven. Du kan prøve så mange ganger du vil.</p><a href="" class="btn btn-default pull-right">Bekreft</a><a href="video.html" class="btn btn-default pull-left">Tilbake</a>
+            <h3>Cortado</h3>
+            <h4>Oppskrift 1 porsjon</h4>
+            <li>1 espresso</li>
+            <li>40cl varm melk</li>
+
+            <h4>Fremgangsmåte</h4>
+            <p>Lag en espresso i en kaffekopp som rommer 140ml, varm opp melken og hell den oppi koppen.</p><a href="video.php" class="btn btn-default pull-right">Neste</a><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php" class="btn btn-default pull-left">Tilbake</a>
           </div>
         </div>
       </div>
@@ -45,7 +49,7 @@
           <div class="progresjonTo"></div>
         </div>
         <div class="col-md-12"><a href="">
-            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.html" class="btn btn-default pull-right">Logg ut</a></div>
+            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
     </div>
   </body>

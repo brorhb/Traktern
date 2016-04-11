@@ -12,10 +12,10 @@
       <div class="books_bg">
         <div class="overlay">
           <div class="container-fluid">
-            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.html">
+            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php">
                 <p class="red"><-- Tilbake til start</p></a>
-              <h1>Cortado</h1>
-              <p>I dette kurset vil du lære å lage cortado. Cortado stammer originalt i fra Spania og er en kaffetype som er meget kjent her til lands. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage cortado.</p>
+              <h1>Chai Latte</h1>
+              <p>I dette kurset vil du lære å lage Chai Latte. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage denne te typen perfekt, hva den inneholder og hvordan man lager den.</p>
             </div>
           </div>
         </div>
@@ -25,9 +25,17 @@
       <div class="col-sm-7">
         <div class="col-sm-12 box">
           <div class="col-sm-12">
-            <h3>Cortado</h3>
-            <h4>Video gjennomgang</h4><iframe width="560" height="315" src="https://www.youtube.com/embed/0ZvWaF15OuA" frameborder="0" allowfullscreen></iframe>
-            <p>Etter du har sett denne videoen anbefaler vi at du prøver å lage en Cortado selv. Se filmen gjærne flere ganger.</p><a href="quiz.html" class="btn btn-default pull-right">Neste</a><a href="infoCortado.html" class="btn btn-default pull-left">Tilbake</a>
+            <h3>Chai latte</h3>
+            <h4>Oppskrift 1 porsjon</h4>
+            <li>1 dl vann</li>
+            <li>1/4 kanelstang</li>
+            <li>1 1/2 ss løs te</li>
+            <li>3/4 kardemommekjerne</li>
+            <li>stjerneanis</li>
+            <li>1/2 ss honning</li>
+            <li>1 1/2dl helmelk</li>
+            <h4>Fremgangsmåte</h4>
+            <p>Kok opp vann, kanelstang, stjerneanis, kardemommefrø og honning. La trekke i 5 minutter. Ha i løs te og trekk videre i 5 minutter. Sil av. Kok opp melk eller steam melk om du har en melkesteamer. Bruk en stavmikser for å gjøre den varme melken mer luftig om du ikke har en melkesteamer. Ha teblandingen i kopper og hell over den varme melken. Smak til med mer honning om ønskelig. </p><a href="video.php" class="btn btn-default pull-right">Neste</a><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php" class="btn btn-default pull-left">Tilbake</a>
           </div>
         </div>
       </div>
@@ -45,7 +53,7 @@
           <div class="progresjonTo"></div>
         </div>
         <div class="col-md-12"><a href="">
-            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.html" class="btn btn-default pull-right">Logg ut</a></div>
+            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
     </div>
   </body>

@@ -50,7 +50,7 @@ header {
   background-color: #131313;
   margin-top: 8px;
   margin-bottom: 8px;
-  min-height: 256px;
+  padding: 8px;
 }
 
 input {
@@ -132,4 +132,8 @@ footer {
     background-color: #131313;
     margin-bottom: 8px;
     margin-top: 8px;
+}
+
+iframe {
+    max-width: 100%;
 }

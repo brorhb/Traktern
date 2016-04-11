@@ -12,7 +12,7 @@
       <div class="books_bg">
         <div class="overlay">
           <div class="container-fluid">
-            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.html">
+            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php">
                 <p class="red"><-- Tilbake til start</p></a>
               <h1>Kaffe latte</h1>
               <p>I dette kurset vil du lære å lage kaffe latte. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage denne kaffe typen perfekt, hva den inneholder og hvordan man lager den.</p>
@@ -27,7 +27,7 @@
           <div class="col-sm-12">
             <h3>Kaffe latte</h3>
             <h4>Prøve</h4>
-            <p>Prøv dine kaffe kunskaper i denne lille prøven. Du kan prøve så mange ganger du vil.</p><a href="" class="btn btn-default pull-right">Bekreft</a><a href="video.html" class="btn btn-default pull-left">Tilbake</a>
+            <p>Prøv dine kaffe kunskaper i denne lille prøven. Du kan prøve så mange ganger du vil.</p><a href="" class="btn btn-default pull-right">Bekreft</a><a href="video.php" class="btn btn-default pull-left">Tilbake</a>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@
           <div class="progresjonTo"></div>
         </div>
         <div class="col-md-12"><a href="">
-            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.html" class="btn btn-default pull-right">Logg ut</a></div>
+            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
     </div>
   </body>

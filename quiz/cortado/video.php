@@ -12,10 +12,10 @@
       <div class="books_bg">
         <div class="overlay">
           <div class="container-fluid">
-            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.html">
+            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php">
                 <p class="red"><-- Tilbake til start</p></a>
-              <h1>Americano</h1>
-              <p>I dette kurset vil du lære å lage Americano. Americano er den mest kjente kaffedrikken her til lands, den kan minne om vanlig traktekaffe. Forskjellen er at man bruker espresso bønner som er kvernet og blandet med varmt vann. Americano stammer originalt i fra Latin-Amerika.</p>
+              <h1>Cortado</h1>
+              <p>I dette kurset vil du lære å lage cortado. Cortado stammer originalt i fra Spania og er en kaffetype som er meget kjent her til lands. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage cortado.</p>
             </div>
           </div>
         </div>
@@ -25,9 +25,9 @@
       <div class="col-sm-7">
         <div class="col-sm-12 box">
           <div class="col-sm-12">
-            <h3>Americano</h3>
-            <h4>Video gjennomgang</h4><iframe width="560" height="315" src="https://www.youtube.com/embed/5aDqNwMVEyc" frameborder="0" allowfullscreen></iframe>
-            <p>Etter du har sett denne videoen anbefaler vi at du prøver å lage en Americano selv. Se filmen gjærne flere ganger.</p><a href="quiz.html" class="btn btn-default pull-right">Neste</a><a href="infoCaffeLatte.html" class="btn btn-default pull-left">Tilbake</a>
+            <h3>Cortado</h3>
+            <h4>Video gjennomgang</h4><iframe width="560" height="315" src="https://www.youtube.com/embed/0ZvWaF15OuA" frameborder="0" allowfullscreen></iframe>
+            <p>Etter du har sett denne videoen anbefaler vi at du prøver å lage en Cortado selv. Se filmen gjærne flere ganger.</p><a href="quiz.php" class="btn btn-default pull-right">Neste</a><a href="infoCortado.php" class="btn btn-default pull-left">Tilbake</a>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@
           <div class="progresjonTo"></div>
         </div>
         <div class="col-md-12"><a href="">
-            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.html" class="btn btn-default pull-right">Logg ut</a></div>
+            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
     </div>
   </body>

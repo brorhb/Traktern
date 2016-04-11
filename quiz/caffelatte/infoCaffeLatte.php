@@ -12,10 +12,10 @@
       <div class="books_bg">
         <div class="overlay">
           <div class="container-fluid">
-            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.html">
+            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php">
                 <p class="red"><-- Tilbake til start</p></a>
-              <h1>Cortado</h1>
-              <p>I dette kurset vil du lære å lage cortado. Cortado stammer originalt i fra Spania og er en kaffetype som er meget kjent her til lands. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage cortado.</p>
+              <h1>Kaffe latte</h1>
+              <p>I dette kurset vil du lære å lage kaffe latte. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage denne kaffe typen perfekt, hva den inneholder og hvordan man lager den.</p>
             </div>
           </div>
         </div>
@@ -25,13 +25,12 @@
       <div class="col-sm-7">
         <div class="col-sm-12 box">
           <div class="col-sm-12">
-            <h3>Cortado</h3>
+            <h3>Kaffe latte</h3>
             <h4>Oppskrift 1 porsjon</h4>
-            <li>1 espresso</li>
-            <li>40cl varm melk</li>
-
+            <li>½ dl espressokaffe</li>
+            <li>2 ½ dl lettmelk</li>
             <h4>Fremgangsmåte</h4>
-            <p>Lag en espresso i en kaffekopp som rommer 140ml, varm opp melken og hell den oppi koppen.</p><a href="video.html" class="btn btn-default pull-right">Neste</a><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.html" class="btn btn-default pull-left">Tilbake</a>
+            <p>Varm opp melk i en kjele og “steam” (skumme) den gjerne om du har mulighet. Lag i tillegg en espresso. Finn frem høye glass som rommer 3-4 dl. Hell espressoen i glasset, og hell over melken til glasset er fullt.</p><a href="video.php" class="btn btn-default pull-right">Neste</a><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php" class="btn btn-default pull-left">Tilbake</a>
           </div>
         </div>
       </div>
@@ -49,7 +48,7 @@
           <div class="progresjonTo"></div>
         </div>
         <div class="col-md-12"><a href="">
-            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.html" class="btn btn-default pull-right">Logg ut</a></div>
+            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
     </div>
   </body>
