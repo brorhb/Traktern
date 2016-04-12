@@ -26,8 +26,8 @@
           <p class="red"><-- Tilbake</p></a>
         <h3>Registrer deg</h3>
         <form class="form-signin">
-          <label for="inputEmail" class="sr-only">Epost adresse</label>
-          <input id="inputEmail" type="email" placeholder="Epost addresse" required="" autofocus="" class="form-control">
+          <label for="inputUsername" class="sr-only">Brukernavn</label>
+          <input id="inputUsername" type="email" placeholder="Brukernavn" required="" autofocus="" class="form-control">
           <label for="inputPassword" class="sr-only">Passord</label>
           <input id="inputPassword" type="password" placeholder="Passord" required="" class="form-control">
           <label for="inputPassword" class="sr-only">Bekreft passord</label>

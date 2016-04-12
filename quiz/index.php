@@ -45,7 +45,7 @@
           <div class="col-sm-9">
             <h3>Americano</h3>
             <p>Caffè Americano or Americano is a style of coffee prepared by brewing espresso with added hot water, giving it a similar strength to, but different flavor from, drip coffee. The strength of an Americano varies with the number of shots of espresso and the amount of water added. The name is also spelled with varying capitalization and use of diacritics: e.g., café americano.</p>
-            <a class="btn btn-default pull-right" href="http://136147-www.web.tornado-node.net/quiz/registrerbruker.php.html">Start</a>
+            <a class="btn btn-default pull-right" href="http://136147-www.web.tornado-node.net/quiz/registrerbruker.php">Start</a>
           </div>
         </div>
         <div class="col-sm-12 box">

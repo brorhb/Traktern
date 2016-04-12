@@ -115,6 +115,9 @@ header {
     background-attachment: fixed;
     overflow: hidden;
 }
+.loginform {
+    overflow-x: hidden;
+}
 /* MINE KLASSER */
 /* MINE KLASSER */
 hr {
@@ -164,7 +167,7 @@ ul,li {
 }
 
 .indre_ramme_header {
-	font-size:2em;
+	index.php-size:2em;
 }
 
 .indre_ramme {
@@ -237,12 +240,12 @@ ul,li {
 }
 .bottom-footer span {
     color: #b7b7b7;
-    font-size: 13px;
+    index.php-size: 13px;
     text-transform: uppercase;
 }
 .laurels-entry-meta a{
 	color: #535353;
-    font-size: 15px;
+    index.php-size: 15px;
     text-decoration: none;
     transition: all 0.5s ease-in-out 0s;
 }
@@ -262,7 +265,7 @@ ul,li {
 .blog-breadcumb a:after {
     color: #535353;
     content: none;
-    font-size: 14px;
+    index.php-size: 14px;
     padding-left: 5px;
 }
 .laurels-entry-meta {
@@ -270,7 +273,7 @@ ul,li {
     margin-right: 10px;
 }
 .blog-info > h2{
-	 font-size: 24px;
+	 index.php-size: 24px;
     padding-left: 10px;
     text-transform: capitalize;
     transition: all 0.5s ease-in-out 0s;
