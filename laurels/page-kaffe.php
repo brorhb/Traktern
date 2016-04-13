@@ -80,46 +80,5 @@ get_header(); ?>
     	</article>
 
 
-<!-- TRE SISTE POSTER -->
-<!-- TRE SISTE POSTER -->
-<div class="ramme">
-    <div class="webpage-container container">
-            <?php
-            $custom_query = new WP_Query(array(
-                'posts_per_page'    => 3,
-                'category_name'     => 'Nyheter',
-                'paged'             => 1,
-            )); ?>
-
-            <?php
-            if ($custom_query->have_posts()) :
-                while ( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
-                    <div class="col-md-4">
-            <!-- NEWS TITLE -->
-                        <div class="news-single-title">
-                            <h2><a href='<?php the_permalink(); ?>'><?php the_title(); ?></a></h2>
-                        </div>
-                        <div class="indre_ramme">
-                            <?php the_excerpt($more); ?>
-                            <a href="<?php the_permalink(); ?>" class="btn btn-default pull-right" role="button">Les mer</a>
-                        </br>
-                            <hr class="visible-xs visible-sm">
-                        </div>
-                        </div>
-                <?php
-                endwhile;
-            else :
-                for ($i = 0; $i < 3; $i++) :
-                    echo '<div class="news-single" style="height: 250px;"><p>Det er for øyeblikket ingen nyheter</p></div>';
-                endfor;
-            endif;
-
-            wp_reset_postdata(); ?>
-    </div>
-</div>
-<!-- TRE SISTE POSTER -->
-<!-- TRE SISTE POSTER -->
-
-
 </section>
 <?php get_footer(); ?>

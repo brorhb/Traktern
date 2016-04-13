@@ -1,5 +1,27 @@
 <?php
 
+/* Widget area åpningstider */
+function laurel_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Aapningstider',
+		'id'            => 'aapningstider',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'laurel_widgets_init' );
+/* Widget area åpningstider */
+
+/* Skjule adminbar for andre */
+add_action('after_setup_theme', 'remove_admin_bar');
+function remove_admin_bar() {
+if (!current_user_can('administrator') && !is_admin()) {show_admin_bar(false);}}
+/* Skjule adminbar for andre */
+
 /* READ MORE LINK */
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 function wpdocs_excerpt_more( $more ) {

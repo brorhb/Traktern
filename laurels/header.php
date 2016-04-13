@@ -81,7 +81,7 @@ $laurels_options = get_option('laurels_theme_options');
               <div class="col-sm-10 col-md-10 no-padding">
                 <nav class="navbar-default main_menu navigation-deafault" role="navigation">
                   <div class="navbar-header res-nav-header toggle-respon">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-collapse">
                       <span class="sr-only"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>

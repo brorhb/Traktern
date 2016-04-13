@@ -3,6 +3,39 @@
 
 	connectDB();
 
+	// Hvis brukeren leverer quizen
+	if (@$_POST['lever']) {		
+
+		$poeng = 0;
+
+		$sporsmaalIDer = $_POST['sporsmaalID'];
+
+		$antall = count($sporsmaalIDer);
+
+		echo "Antall: " . $antall . "<br>";
+
+		for ($i=0; $i<$antall; $i++) {
+			$sporsmaalIDsvar = $_POST['sporsmaalID'][$i];
+			echo "Value: " . $sporsmaalIDsvar . "<br>";
+
+			$svarIDer = $_POST['svar'][$sporsmaalIDsvar];
+			$antall1 = count($svarIDer);
+			
+			echo "Antall svar: " . $antall1 . "<br>";
+
+			for ($j=0; $j<$antall1; $j++) {
+				$svarIDersvar = $_POST['svar'][$sporsmaalIDsvar][$j];
+				echo "Svar: " . $svarIDersvar . "<br>";
+			}
+
+			echo "<br><br>";
+
+		}
+
+
+	}
+
+
 	$sql = "SELECT id FROM qz_kategori;";
 	$result = connectDB()->query($sql);
 
@@ -10,10 +43,12 @@
 		echo '<a href="?svar=1">Fasit</a>';
 	}
 	else {
-		echo '<a href="?">Tilbake</a>';
+		echo '<a href="">Tilbake</a>';
 	}
 
 	if ($result->num_rows > 0) {
+
+		echo '<form action="" method="POST"';
 
 		// output data of each row
 		while($row = $result->fetch_assoc()) {
@@ -32,6 +67,7 @@
 					$sporsmaalID = $row2["id"];
 
 					echo "<p><strong>" . HentSporsmaalFraSporsmaalID($sporsmaalID) . "</strong></p>";
+					echo 'Spørsmål ID: <input type="text" name="sporsmaalID[]" value="' . $sporsmaalID . '">';
 
 					$sql3 = "SELECT * FROM qz_svar WHERE sporsmaalID = '$sporsmaalID';";
 					$result3 = connectDB()->query($sql3);
@@ -45,7 +81,7 @@
 							$svar = utf8_encode($row3["svar"]);
 
 							if (@!$_GET['svar']==1) {
-								echo '<p><input type="checkbox" name="' . $svarID . '"> ' . $svaralternativ . '</p>';
+								echo '<p><input type="checkbox" name="svar[' . $sporsmaalID . '][' . $svarID . ']"> ' . $svaralternativ . '</p>';
 							}
 							else {
 								if ($svar == FALSE) {
@@ -60,6 +96,8 @@
 				}
 			}
 		}
+		echo '<input type="submit" value="Lever svar" name="lever">';
+		echo "</form>";
 	}
 	else {
 		echo "0 results";

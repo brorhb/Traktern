@@ -29,7 +29,7 @@ header {
 .coffee_bg{
     color: white;
     position: relative;
-    height: 300px;
+    height: 500px;
     width: 100%;
     background-image: url(images/coffeebeans.jpg);
     background-size: 125% auto;
@@ -92,6 +92,9 @@ header {
     header {
         position: relative;
     }
+    .coffee_bg {
+        height: 300px;
+    }
 }
 @media (min-width: 1000px) {
     section {
@@ -109,7 +112,7 @@ header {
     position: relative;
     height: 200px;
     width: 100%;
-    background-image: url(images/blogbg.jpg);
+    background-image: url(images/folio.jpg);
     background-size: 165% auto;
     background-position: top center;
     background-attachment: fixed;

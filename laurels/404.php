@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * 404 Template File.
 **/
-get_header(); 
+get_header();
 ?>
 <div class="container webpage-container">
     <div class="col-md-12 no-padding">
@@ -13,7 +13,7 @@ get_header();
                 <p><?php _e('Whatever you were looking for was not found, but maybe try looking again or search using the form below.','laurels') ?></p>
                 <div class="row">
                     <div class="col-sm-12">
-                    <div class="search-form-404"><?php echo get_search_form(); ?></div>							
+                    <div class="search-form-404"><?php echo get_search_form(); ?></div>
                     </div>
                 </div>
             </section>
