@@ -52,7 +52,7 @@ get_header(); ?>
             <?php
             if ($custom_query->have_posts()) :
                 while ( $custom_query->have_posts() ) : $custom_query->the_post(); ?>
-                    <div class="col-md-6">
+                    <div class="col-md-6 block">
             <!-- NEWS IMAGE -->
                         <div class="news-single-img">
                             <?php if(has_post_thumbnail()) : ?>
@@ -61,7 +61,7 @@ get_header(); ?>
                             <?php endif; ?>
                         </div>
             <!-- NEWS TITLE -->
-                        <div class="news-single-title">
+                        <div class="news-single-title block">
                             <h2><?php the_title(); ?></h2>
                         </div>
                         <div class="indre_ramme">

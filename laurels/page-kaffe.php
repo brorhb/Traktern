@@ -64,7 +64,7 @@ get_header(); ?>
     										'after' => '</div>',
     									) ); ?>
                             </div>
-                            <a href="http://136147-www.web.tornado-node.net/quiz/index.html" class="btn btn-default pull-right" role="button">Lær mer</a>
+                            <a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right" role="button">Lær mer</a>
                         </div>
         </div>
         <div class="col-md-3 visible-md-*">
