@@ -30,7 +30,7 @@
             <h3>Kaffe latte</h3>
             <p>I dette kurset vil du lære å lage kaffe latte. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage denne kaffe typen perfekt, hva den inneholder og hvordan man lager den.
             </p>
-            <a class="btn btn-default pull-right" href="http://136147-www.web.tornado-node.net/quiz/registrerbruker.php">Start</a>
+            <a class="btn btn-default pull-right" href="registrerbruker.php">Start</a>
           </div>
         </div>
         <div class="col-sm-12 box">
@@ -38,7 +38,7 @@
           <div class="col-sm-9">
             <h3>Chai latte</h3>
             <p>Du har helt sikkert hørt eller sett ordet chai når du har vært ute på kafé. Men vet du egentlig hva det er? Chai betyr te og har sin opprinnelse fra det Indiske subkontinentet. Chai lages opprinnelig med sort te, en blanding av forskjellige krydder, melk og sukker. Så chai er egentlig te med melk. Sier du "Chai te", så sier du egentlig "te-med-melk te" og sier du "chai te latte" så sier du "te-med-melk te med melk". Ble du forvirret? - Fra nå sier vi bare chai!</p>
-            <a class="btn btn-default pull-right" href="http://136147-www.web.tornado-node.net/quiz/registrerbruker.php">Start</a>
+            <a class="btn btn-default pull-right" href="registrerbruker.php">Start</a>
           </div>
         </div>
         <div class="col-sm-12 box">
@@ -46,7 +46,7 @@
           <div class="col-sm-9">
             <h3>Americano</h3>
             <p>Caffè Americano or Americano is a style of coffee prepared by brewing espresso with added hot water, giving it a similar strength to, but different flavor from, drip coffee. The strength of an Americano varies with the number of shots of espresso and the amount of water added. The name is also spelled with varying capitalization and use of diacritics: e.g., café americano.</p>
-            <a class="btn btn-default pull-right" href="http://136147-www.web.tornado-node.net/quiz/registrerbruker.php">Start</a>
+            <a class="btn btn-default pull-right" href="registrerbruker.php">Start</a>
           </div>
         </div>
         <div class="col-sm-12 box">
@@ -54,7 +54,7 @@
           <div class="col-sm-9">
             <h3>Cortado</h3>
             <p>Caffè Americano or Americano is a style of coffee prepared by brewing espresso with added hot water, giving it a similar strength to, but different flavor from, drip coffee. The strength of an Americano varies with the number of shots of espresso and the amount of water added. The name is also spelled with varying capitalization and use of diacritics: e.g., café americano.</p>
-            <a class="btn btn-default pull-right" href="http://136147-www.web.tornado-node.net/quiz/registrerbruker.php">Start</a>
+            <a class="btn btn-default pull-right" href="registrerbruker.php">Start</a>
           </div>
         </div>
         <div class="col-sm-12 box">
@@ -62,7 +62,7 @@
           <div class="col-sm-9">
             <h3>Kaffe i Norge</h3>
             <p>Kongeriket Norge er et nordisk, europeisk land og en selvstendig stat vest på den skandinaviske halvøy. Landet er langt og smalt, og kysten strekker seg langs Nordatlanteren, hvor også Norges kjente fjorder befinner seg. Totalt dekker det relativt tynt befolkede landet 385 000 kvadratkilometer med litt over fem millioner innbyggere.</p>
-            <a class="btn btn-default pull-right" href="http://136147-www.web.tornado-node.net/quiz/registrerbruker.php">Start</a>
+            <a class="btn btn-default pull-right" href="registrerbruker.php">Start</a>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@
             <label>
               <input type="checkbox" value="remember-me"> Husk meg
             </label>
-        </div><a type="submit" href="loggetinn.php" class="btn btn-lg btn-default btn-block">Logg inn</a><a href="http://136147-www.web.tornado-node.net/quiz/registrerbruker.php" class="btn btn-lg btn-default btn-block">Ikke registrert?</a>
+        </div><a type="submit" href="loggetinn.php" class="btn btn-lg btn-default btn-block">Logg inn</a><a href="registrerbruker.php" class="btn btn-lg btn-default btn-block">Ikke registrert?</a>
         </form>
           
           <?php

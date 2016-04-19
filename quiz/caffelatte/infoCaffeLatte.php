@@ -12,7 +12,7 @@
       <div class="books_bg">
         <div class="overlay">
           <div class="container-fluid">
-            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php">
+            <div class="col-md-3"><a href="../loggetinn.php">
                 <p class="red"><-- Tilbake til start</p></a>
               <h1>Kaffe latte</h1>
               <p>I dette kurset vil du lære å lage kaffe latte. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage denne kaffe typen perfekt, hva den inneholder og hvordan man lager den.</p>
@@ -30,7 +30,7 @@
             <li>½ dl espressokaffe</li>
             <li>2 ½ dl lettmelk</li>
             <h4>Fremgangsmåte</h4>
-            <p>Varm opp melk i en kjele og “steam” (skumme) den gjerne om du har mulighet. Lag i tillegg en espresso. Finn frem høye glass som rommer 3-4 dl. Hell espressoen i glasset, og hell over melken til glasset er fullt.</p><a href="video.php" class="btn btn-default pull-right">Neste</a><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php" class="btn btn-default pull-left">Tilbake</a>
+            <p>Varm opp melk i en kjele og “steam” (skumme) den gjerne om du har mulighet. Lag i tillegg en espresso. Finn frem høye glass som rommer 3-4 dl. Hell espressoen i glasset, og hell over melken til glasset er fullt.</p><a href="video.php" class="btn btn-default pull-right">Neste</a><a href="../loggetinn.php" class="btn btn-default pull-left">Tilbake</a>
           </div>
         </div>
       </div>

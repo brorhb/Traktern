@@ -12,7 +12,7 @@
       <div class="books_bg">
         <div class="overlay">
           <div class="container-fluid">
-            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php">
+            <div class="col-md-3"><a href="../loggetinn.php">
                 <p class="red"><-- Tilbake til start</p></a>
               <h1>Chai Latte</h1>
               <p>I dette kurset vil du lære å lage Chai Latte. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage denne te typen perfekt, hva den inneholder og hvordan man lager den.</p>
@@ -35,7 +35,7 @@
             <li>1/2 ss honning</li>
             <li>1 1/2dl helmelk</li>
             <h4>Fremgangsmåte</h4>
-            <p>Kok opp vann, kanelstang, stjerneanis, kardemommefrø og honning. La trekke i 5 minutter. Ha i løs te og trekk videre i 5 minutter. Sil av. Kok opp melk eller steam melk om du har en melkesteamer. Bruk en stavmikser for å gjøre den varme melken mer luftig om du ikke har en melkesteamer. Ha teblandingen i kopper og hell over den varme melken. Smak til med mer honning om ønskelig. </p><a href="video.php" class="btn btn-default pull-right">Neste</a><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php" class="btn btn-default pull-left">Tilbake</a>
+            <p>Kok opp vann, kanelstang, stjerneanis, kardemommefrø og honning. La trekke i 5 minutter. Ha i løs te og trekk videre i 5 minutter. Sil av. Kok opp melk eller steam melk om du har en melkesteamer. Bruk en stavmikser for å gjøre den varme melken mer luftig om du ikke har en melkesteamer. Ha teblandingen i kopper og hell over den varme melken. Smak til med mer honning om ønskelig. </p><a href="video.php" class="btn btn-default pull-right">Neste</a><a href="../loggetinn.php" class="btn btn-default pull-left">Tilbake</a>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@
                 <div class="progresjon" style="width:20%;"></div>
             </div>
         </div>
-        <div class="col-md-12"><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
+        <div class="col-md-12"><a href="index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
     </div>
   </body>

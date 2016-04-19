@@ -84,7 +84,7 @@
             </div>
         </div>
         <div class="col-md-12"><a href="">
-            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
+            <p class="red">Rediger </p></a><a href="index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
       <div class="col-sm-7 hidden-lg hidden-md">
         <div class="col-sm-12 box">

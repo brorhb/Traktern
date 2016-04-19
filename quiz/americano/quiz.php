@@ -28,7 +28,7 @@
       <div class="books_bg">
         <div class="overlay">
           <div class="container-fluid">
-            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php">
+            <div class="col-md-3"><a href="../loggetinn.php">
                 <p class="red"><-- Tilbake til start</p></a>
               <h1><?php echo $navn; ?></h1>
               <p>I dette kurset vil du lære å lage <?php echo strtolower($navn); ?>. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage denne kaffe typen perfekt, hva den inneholder og hvordan man lager den.</p>
@@ -234,7 +234,7 @@
             </div>
         </div>
         <div class="col-md-12"><a href="">
-            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
+            <p class="red">Rediger </p></a><a href="index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
 
 
@@ -255,7 +255,7 @@
           <div class="progresjonTo"></div>
         </div>
         <div class="col-md-12"><a href="">
-            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
+            <p class="red">Rediger </p></a><a href="index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
 
 
@@ -284,7 +284,7 @@
 
         </div>
         <div class="col-md-12"><a href="">
-            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
+            <p class="red">Rediger </p></a><a href="index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
     </div>
   </body>

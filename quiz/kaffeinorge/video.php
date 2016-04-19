@@ -12,7 +12,7 @@
       <div class="books_bg">
         <div class="overlay">
           <div class="container-fluid">
-            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php">
+            <div class="col-md-3"><a href="../loggetinn.php">
                 <p class="red"><-- Tilbake til start</p></a>
               <h1>Kaffe i Norge</h1>
               <p>Kongeriket Norge er et nordisk, europeisk land og en selvstendig stat vest på den skandinaviske halvøy. Landet er langt og smalt, og kysten strekker seg langs Nordatlanteren, hvor også Norges kjente fjorder befinner seg. Totalt dekker det relativt tynt befolkede landet 385 000 kvadratkilometer med litt over fem millioner innbyggere.</p>
@@ -50,7 +50,7 @@
                 <div class="progresjon" style="width:20%;"></div>
             </div>
         </div>
-        <div class="col-md-12"><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
+        <div class="col-md-12"><a href="index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
     </div>
   </body>

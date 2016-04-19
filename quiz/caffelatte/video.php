@@ -12,7 +12,7 @@
       <div class="books_bg">
         <div class="overlay">
           <div class="container-fluid">
-            <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php">
+            <div class="col-md-3"><a href="../loggetinn.php">
                 <p class="red"><-- Tilbake til start</p></a>
               <h1>Kaffe latte</h1>
               <p>I dette kurset vil du lære å lage kaffe latte. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage denne kaffe typen perfekt, hva den inneholder og hvordan man lager den.</p>
