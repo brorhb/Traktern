@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="no">
   <head>
@@ -27,8 +28,10 @@
         <h3>Registrer deg</h3>
         <form class="form-signin">
           <label for="inputUsername" class="sr-only">Brukernavn</label>
-          <input id="inputUsername" type="email" placeholder="Brukernavn" required="" autofocus="" class="form-control">
+          <input id="inputUsername" type="text" placeholder="Brukernavn" required="" autofocus="" class="form-control">
           <label for="inputPassword" class="sr-only">Passord</label>
+          <label for="inputEmail" class="sr-only">Epost adresse</label>
+          <input id="inputEmail" type="email" placeholder="Epost adresse" required="" autofocus="" class="form-control">
           <input id="inputPassword" type="password" placeholder="Passord" required="" class="form-control">
           <label for="inputPassword" class="sr-only">Bekreft passord</label>
           <input id="inputPassword" type="password" placeholder="Bekreft passord" required="" class="form-control">
@@ -38,6 +41,38 @@
             </label>
         </div><a type="submit" href="loggetinn.php" class="btn btn-lg btn-default btn-block">Registrer deg og logg inn</a>
         </form>
+          
+          <?php
+            connectDB(); 
+            //include_once("db-tilkobling.php");
+            include_once("../wp-includes/pluggable.php");
+            
+            $brukernavn = $_POST["inputUsername"];
+            $epost = $_POST["inputEmail"];
+            $passord = $_POST["inputPassword"];
+        
+            if (!$brukernavn) {
+                print("Fyll ut brukernavn");
+            } else if (!$passord) {
+                print("Fyll ut passord");
+            } else if (filter_var($epost, FILTER_VALIDATE_EMAIL)) {
+                echo "($epost) er ugyldig";
+            } else {
+                $sqlSetning = "SELECT * FROM wp_users WHERE user_login = '$brukernavn';";
+                $sqlResultat = mysqli_query($db, $sqlSetning) or die ("ikke mulig å hente fra db");
+                
+                if (mysqli_num_rows($sqlResultat) != 0) {
+                    print("bruker finnes fra før");
+                }
+                else {
+                    $kryptertPassord = wp_password_hash($passord); /* kommer fra include fila lenger opp. egen wp funksjon for hashing av passord */
+                    $sqlSetning = "INSERT INTO wp_users VALUES ('', '$brukernavn', '$kryptertPassord', '', 'epost', '', '', '', '', '');";
+                    mysqli_query($db, $sqlSetning) or die ("ikke mulig å registrere");
+                    print ("bruker er registrert");
+                }
+            }
+        ?>
+          
       </div>
     </div>
   </body>

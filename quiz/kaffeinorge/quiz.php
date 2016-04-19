@@ -2,7 +2,7 @@
   $debug = FALSE;
 
   // Hvilke(n) kategori(er) quizen skal gjelde
-  $kategoriargument = 5;
+  $kategoriargument = 3;
   $totalt_antall_sporsmaal_per_kategori = 5;
 
   include_once("../funksjoner.php");

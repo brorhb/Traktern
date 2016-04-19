@@ -20,6 +20,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
     background-color: #2b2b2b;
     color: #a04e43;
 }
+.graa {
+    background-color: #2b2b2b;
+}
 .block {
     display: inline-block;
 }
@@ -179,7 +182,7 @@ ul,li {
 .indre_ramme {
 	width:100%;
 	float:left;
-    padding: 10px;
+    padding: 8px;
     overflow-x: hidden;
 }
 

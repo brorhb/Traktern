@@ -116,4 +116,72 @@
 		}
 		connectDB()->close();
 	}
+
+	function HentAntallSvaralternativerFraSporsmaalID($sporsmaalID) {
+		connectDB();
+
+		$sql = "SELECT COUNT(*) AS antall FROM qz_svar WHERE sporsmaalID = '$sporsmaalID';";
+		$result = connectDB()->query($sql);
+
+		if ($result->num_rows > 0) {
+			// output data of each row
+			while($row = $result->fetch_assoc()) {
+				return utf8_encode($row["antall"]);
+			}
+		}
+		connectDB()->close();
+	}
+
+	function HentAntallRiktigeSvaralternativerFraSporsmaalID($sporsmaalID) {
+		connectDB();
+
+		$sql = "SELECT COUNT(*) AS antall FROM qz_svar WHERE sporsmaalID = '$sporsmaalID' AND svar = '1';";
+		$result = connectDB()->query($sql);
+
+		if ($result->num_rows > 0) {
+			// output data of each row
+			while($row = $result->fetch_assoc()) {
+				return utf8_encode($row["antall"]);
+			}
+		}
+		connectDB()->close();
+	}
+
+	function sjekkOmSvaralternativErKorrekt($svarID) {
+		connectDB();
+
+		$sql = "SELECT svar FROM qz_svar WHERE id = '$svarID';";
+		$result = connectDB()->query($sql);
+
+		if ($result->num_rows > 0) {
+			// output data of each row
+			while($row = $result->fetch_assoc()) {
+				if ($row["svar"] == 1) {
+					return TRUE;
+				}
+				else {
+					return FALSE;
+				}
+			}
+		}
+		connectDB()->close();
+	}
+
+	function progresjon($brukerid)
+	{
+		echo '
+			<h4>Kaffe latte</h4>
+			<div class="progresjonBG">
+				<div class="progresjon" style="width:3%;"></div>
+			</div>
+			<h4>Kaffe i Norge</h4>
+			<div class="progresjonBG">
+				<div class="progresjon" style="width:60%;"></div>
+			</div>
+			<h4>Chai latte</h4>
+			<div class="progresjonBG">
+				<div class="progresjon" style="width:3%;"></div>
+			</div>
+		';
+	}
 ?>

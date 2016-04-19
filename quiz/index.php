@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="no">
   <head>
@@ -68,22 +69,36 @@
       <div class="col-sm-4 col-sm-offset-1 box">
         <h3>Logg inn</h3>
         <form class="form-signin">
-          <label for="inputEmail" class="sr-only">Epost adresse</label>
-          <input id="inputEmail" type="email" placeholder="Epost addresse" required="" autofocus="" class="form-control">
+          <label for="inputBrukernavn" class="sr-only">Brukernavn</label>
+          <input id="inputBrukernavn" type="text" placeholder="Brukernavn" required autofocus="" class="form-control">
           <label for="inputPassword" class="sr-only">Passord</label>
-          <input id="inputPassword" type="password" placeholder="Passord" required="" class="form-control">
+          <input id="inputPassword" type="password" placeholder="Passord" required class="form-control">
           <div class="checkbox">
             <label>
               <input type="checkbox" value="remember-me"> Husk meg
             </label>
         </div><a type="submit" href="loggetinn.php" class="btn btn-lg btn-default btn-block">Logg inn</a><a href="http://136147-www.web.tornado-node.net/quiz/registrerbruker.php" class="btn btn-lg btn-default btn-block">Ikke registrert?</a>
         </form>
+          
+          <?php
+            include("db-tilkobling.php");
+            $brukernavn = $_POST["inputBrukernavn"];
+            $passord = $_POST["inputPassord"];
+            
+            if (!sjekkInnlogging($brukernavn, $passord)) {
+                print("Fyll ut alle felter");
+            } else {
+                @$_SESSION["brukernavn"] = $brukernavn;  /* blir noe tull med session når man fjerner kommentaren, siden vil ikke laste inn... */
+                print("<META HTTP_EQUIV='refresh' CONTET='0; URL=loggetinn.php'>");
+            }
+        ?>
+          
       </div>
     </div>
   </body>
   <footer>
     <h4>
-      <div class="text-center"><a href="http://136147-www.web.tornado-node.net">Trykk her for å komme tilbake til Traktern.no</a><br><img src="http://136147-www.web.tornado-node.net/wp-content/uploads/2016/03/cropped-logo.png" alt="Traktern logo" style="width:auto; height:70px;"></div>
+      <div class="text-center"><a href="http://136147-www.web.tornado-node.net">Trykk her for å komme tilbake til traktern.no</a><br><img src="http://136147-www.web.tornado-node.net/wp-content/uploads/2016/03/cropped-logo.png" alt="Traktern logo" style="width:auto; height:70px;"></div>
     </h4>
   </footer>
 </html>

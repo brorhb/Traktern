@@ -4,14 +4,14 @@
  */
 get_header(); ?>
 <section>
-    <div class="coffee_bg">
+    <div class="mapbg">
     	<div class="webpage-container container">
         	<div class="laurels_menu">
             <div class="col-sm-4 col-md-4">
                 <?php
                     $args = array(
                     'posts_per_page' => 1,
-                    'cat' => '5',
+                    'cat' => '23',
                     );
                     $the_query = new WP_Query( $args );
 
@@ -37,6 +37,7 @@ get_header(); ?>
     </div>
     <div class="pattern2">
         <div class="container webpage-container">
+            <div class="col-md-6 col-md-offset-3" style="margin-top:16px;">
             <div id="post-<?php the_ID(); ?>" <?php post_class("col-md-12 col-sm-12 blog-page"); ?>>
               <?php while ( have_posts() ) : the_post(); ?>
               <?php $laurels_image = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()) ); ?>
@@ -55,6 +56,7 @@ get_header(); ?>
         					 <?php comments_template( '', true ); ?>
                         </div>
                     </div>
+                </div>
         </div>
     </div>
              <!-- get_sidebar(); -->

@@ -35,21 +35,26 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4 col-sm-offset-1 box hidden-sm hidden-xs">
-        <h3>Velkommen Marius Wetterlin!</h3>
+      <div class="col-sm-4 col-sm-offset-1 profil">
+        <h3>Velkommen <?php echo "$brukernavn"; ?></h3>
         <div class="col-md-12">
           <div class="profilbilde"></div>
         </div>
         <div class="col-md-12">
           <h4>Kaffe latte</h4>
-          <div class="progresjonEn"></div>
+          <div class="progresjonBG">
+              <div class="progresjon"></div>
+          </div>
           <h4>Kaffe i Norge</h4>
-          <div class="progresjonTre"></div>
+          <div class="progresjonBG">
+              <div class="progresjon"></div>
+          </div>
           <h4>Chai latte</h4>
-          <div class="progresjonTo"></div>
+            <div class="progresjonBG">
+                <div class="progresjon" style="width:20%;"></div>
+            </div>
         </div>
-        <div class="col-md-12"><a href="">
-            <p class="red">Rediger </p></a><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
+        <div class="col-md-12"><a href="http://136147-www.web.tornado-node.net/quiz/index.php" class="btn btn-default pull-right">Logg ut</a></div>
       </div>
     </div>
   </body>

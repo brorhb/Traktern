@@ -14,8 +14,8 @@
           <div class="container-fluid">
             <div class="col-md-3"><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php">
                 <p class="red"><-- Tilbake til start</p></a>
-              <h1>Chai Latte</h1>
-              <p>I dette kurset vil du lære å lage Chai Latte. Vi guider deg nå igjennom en video hvor du lærer hvordan du skal lage denne te typen perfekt, hva den inneholder og hvordan man lager den.</p>
+              <h1>Kaffe i Norge</h1>
+              <p>Kongeriket Norge er et nordisk, europeisk land og en selvstendig stat vest på den skandinaviske halvøy. Landet er langt og smalt, og kysten strekker seg langs Nordatlanteren, hvor også Norges kjente fjorder befinner seg. Totalt dekker det relativt tynt befolkede landet 385 000 kvadratkilometer med litt over fem millioner innbyggere.</p>
             </div>
           </div>
         </div>
@@ -25,17 +25,9 @@
       <div class="col-sm-7">
         <div class="col-sm-12 box">
           <div class="col-sm-12">
-            <h3>Chai latte</h3>
-            <h4>Oppskrift 1 porsjon</h4>
-            <li>1 dl vann</li>
-            <li>1/4 kanelstang</li>
-            <li>1 1/2 ss løs te</li>
-            <li>3/4 kardemommekjerne</li>
-            <li>stjerneanis</li>
-            <li>1/2 ss honning</li>
-            <li>1 1/2dl helmelk</li>
-            <h4>Fremgangsmåte</h4>
-            <p>Kok opp vann, kanelstang, stjerneanis, kardemommefrø og honning. La trekke i 5 minutter. Ha i løs te og trekk videre i 5 minutter. Sil av. Kok opp melk eller steam melk om du har en melkesteamer. Bruk en stavmikser for å gjøre den varme melken mer luftig om du ikke har en melkesteamer. Ha teblandingen i kopper og hell over den varme melken. Smak til med mer honning om ønskelig. </p><a href="video.php" class="btn btn-default pull-right">Neste</a><a href="http://136147-www.web.tornado-node.net/quiz/loggetinn.php" class="btn btn-default pull-left">Tilbake</a>
+            <h3>Kaffe vaner i Norge</h3>
+            <h4>Trenger vi kaffe for å våkne?</h4>
+            <p>Kaffekoppen om morgenen eller pausekaffen på skole eller jobb blir sett på de viktigste kaffekoppene, altså koppene man er mest «avhengig av» når det gjelder de som drikker kaffe. De fleste mener at kaffe spiller en viktig rolle i jobb- eller skolesammenheng – enten som samlingspunkt, som oppkvikkende middel eller som et personlig pusterom. Det er flere menn enn kvinner som drikker svart kaffe, mens når det gjelder kaffedrikker med melk gjelder dette særlig for kvinner i Oslo-området mellom 30 og 44 år. Til tross for stadig flere spesialmaskiner og kapselmaskiner så ser man at 70 prosent av befolkningen har kaffetrakter hjemme.  Ifølge undersøkelsen drikker 2,1 millioner nordmenn (53 prosent) vanligvis traktekaffe. Kapsel- og podsmaskin fortsetter veksten og 922.000 (23 prosent) nordmenn drikker som regel kaffe fra en slik maskin, dette utgjør 1 av 10. 45 prosent har en presskanne i hus, mens 38 prosent svarer at de har en kapsel- eller podsmaskin hjemme hos seg selv. </p><a href="quiz.php" class="btn btn-default pull-right">Neste</a><a href="infoNorge.php" class="btn btn-default pull-left">Tilbake</a>
           </div>
         </div>
       </div>
