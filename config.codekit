@@ -732,6 +732,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/laurels\/images\/foilo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.23566e+06,
+		"inputAbbreviatedPath": "\/laurels\/images\/foilo.png",
+		"outputAbbreviatedPath": "\/laurels\/images\/foilo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/laurels\/images\/folio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 413760,
+		"inputAbbreviatedPath": "\/laurels\/images\/folio.jpg",
+		"outputAbbreviatedPath": "\/laurels\/images\/folio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/laurels\/images\/img-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1038,6 +1060,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/laurels\/page-146.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/laurels\/page-146.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/laurels\/page-15.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1292,20 +1323,11 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/quiz\/americano\/infoAmericano.html": {
+	"\/quiz\/americano\/infoAmericano.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/americano\/infoAmericano.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/quiz\/americano\/quiz.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/americano\/quiz.html",
+		"inputAbbreviatedPath": "\/quiz\/americano\/infoAmericano.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1321,11 +1343,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/quiz\/americano\/video.html": {
+	"\/quiz\/americano\/quiz.php": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/americano\/video.html",
+		"inputAbbreviatedPath": "\/quiz\/americano\/quiz.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1341,11 +1363,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/quiz\/caffelatte\/infoCaffeLatte.html": {
+	"\/quiz\/americano\/video.php": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/caffelatte\/infoCaffeLatte.html",
+		"inputAbbreviatedPath": "\/quiz\/americano\/video.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1361,11 +1383,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/quiz\/caffelatte\/quiz.html": {
+	"\/quiz\/caffelatte\/infoCaffeLatte.php": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/caffelatte\/quiz.html",
+		"inputAbbreviatedPath": "\/quiz\/caffelatte\/infoCaffeLatte.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1381,11 +1403,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/quiz\/caffelatte\/video.html": {
+	"\/quiz\/caffelatte\/quiz.php": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/caffelatte\/video.html",
+		"inputAbbreviatedPath": "\/quiz\/caffelatte\/quiz.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1401,20 +1423,20 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/quiz\/chailatte\/infoChaiLatte.html": {
+	"\/quiz\/caffelatte\/video.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/chailatte\/infoChaiLatte.html",
+		"inputAbbreviatedPath": "\/quiz\/caffelatte\/video.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/quiz\/chailatte\/quiz.html": {
+	"\/quiz\/chailatte\/infoChaiLatte.php": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/chailatte\/quiz.html",
+		"inputAbbreviatedPath": "\/quiz\/chailatte\/infoChaiLatte.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1430,11 +1452,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/quiz\/chailatte\/video.html": {
+	"\/quiz\/chailatte\/quiz.php": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/chailatte\/video.html",
+		"inputAbbreviatedPath": "\/quiz\/chailatte\/quiz.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1450,20 +1472,20 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/quiz\/cortado\/infoCortado.html": {
+	"\/quiz\/chailatte\/video.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/cortado\/infoCortado.html",
+		"inputAbbreviatedPath": "\/quiz\/chailatte\/video.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/quiz\/cortado\/quiz.html": {
+	"\/quiz\/cortado\/infoCortado.php": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/cortado\/quiz.html",
+		"inputAbbreviatedPath": "\/quiz\/cortado\/infoCortado.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1479,11 +1501,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/quiz\/cortado\/video.html": {
+	"\/quiz\/cortado\/quiz.php": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/cortado\/video.html",
+		"inputAbbreviatedPath": "\/quiz\/cortado\/quiz.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1499,11 +1521,29 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/quiz\/cortado\/video.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/cortado\/video.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/quiz\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/quiz\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quiz\/db-tilkobling.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/db-tilkobling.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1561,15 +1601,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/quiz\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/quiz\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1579,20 +1610,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/quiz\/kaffeinorge\/infoNorge.html": {
+	"\/quiz\/kaffeinorge\/infoNorge.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/kaffeinorge\/infoNorge.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/quiz\/kaffeinorge\/quiz.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/kaffeinorge\/quiz.html",
+		"inputAbbreviatedPath": "\/quiz\/kaffeinorge\/infoNorge.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1608,11 +1630,11 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/quiz\/kaffeinorge\/video.html": {
+	"\/quiz\/kaffeinorge\/quiz.php": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/kaffeinorge\/video.html",
+		"inputAbbreviatedPath": "\/quiz\/kaffeinorge\/quiz.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1628,11 +1650,20 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/quiz\/loggetinn.html": {
+	"\/quiz\/kaffeinorge\/video.php": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/loggetinn.html",
+		"inputAbbreviatedPath": "\/quiz\/kaffeinorge\/video.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quiz\/loggetinn.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/loggetinn.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1648,20 +1679,67 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/quiz\/registrer.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/quiz\/registrer.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/quiz\/registrer.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/quiz\/registrer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quiz\/registrerbruker.php": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/registrerbruker.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quiz\/thomas\/funksjoner.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/thomas\/funksjoner.js",
+		"outputAbbreviatedPath": "\/quiz\/thomas\/min\/funksjoner-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/quiz\/thomas\/funksjoner.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/thomas\/funksjoner.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quiz\/thomas\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/thomas\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quiz\/thomas\/registrer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/thomas\/registrer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/quiz\/thomas\/testfil.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/quiz\/thomas\/testfil.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

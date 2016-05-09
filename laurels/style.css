@@ -1,5 +1,5 @@
 /*
-Theme Name: Laurels
+Theme Name: Traktern
 Theme URI: http://fasterthemes.com/wordpress-themes/Laurels
 Author: FasterThemes
 Author URI: http://fasterthemes.com/
@@ -20,6 +20,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
     background-color: #2b2b2b;
     color: #a04e43;
 }
+.sub-menu {
+    background-color: black;
+    border-top: 3px solid black;
+}
+.main-menu-ul ul li ul > li > a {
+    color: white;
+}
+.main-menu-ul ul > li > ul > li > a:hover, .blog_dorp > li > a:focus {
+    color: #a04e43;
+}
 .graa {
     background-color: #2b2b2b;
 }
@@ -36,6 +46,17 @@ header {
     color: white;
     position: relative;
     height: 500px;
+    width: 100%;
+    background-image: url(images/coffeebeans.jpg);
+    background-size: 125% auto;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.coffee_bg_liten{
+    color: white;
+    position: relative;
+    min-height: 250px;
     width: 100%;
     background-image: url(images/coffeebeans.jpg);
     background-size: 125% auto;
@@ -81,6 +102,9 @@ header {
         background-size: 1366px 912px; /* Force the image to its minimum width */
     }
 	.coffee_bg {
+		background-size: 1366px 911px;
+	}
+    .coffee_bg_liten {
 		background-size: 1366px 911px;
 	}
     .mapbg {
@@ -143,12 +167,14 @@ p {
 }
 .pattern1 {
     background-image: url(images/pattern1.png);
+    padding: 16px;
 }
 .pattern2 {
     background-image: url(images/pattern2.png);
     position: relative;
     width: 100%;
     overflow: hidden;
+    padding: 16px;
 }
 .pattern2 p, h2, h3 {
     opacity: 0.8;
@@ -236,7 +262,9 @@ ul,li {
     position: relative;
     bottom: 0;
     right: 0;
-	margin-top: 10px;
+	margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 16px;
 }
 .kaffe img {
     margin-top: 65px;
