@@ -1,5 +1,21 @@
 <?php
 
+/* Widget area åpningstider */
+function laurel_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Aapningstider',
+		'id'            => 'aapningstider',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'laurel_widgets_init' );
+/* Widget area åpningstider */
+
 /* READ MORE LINK */
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 function wpdocs_excerpt_more( $more ) {

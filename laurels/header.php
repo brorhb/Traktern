@@ -19,6 +19,7 @@ $laurels_options = get_option('laurels_theme_options');
     <title><?php wp_title('|', true, 'right'); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <?php if (!empty($laurels_options['favicon'])) { ?>
       <link rel="shortcut icon" href="<?php echo esc_url($laurels_options['favicon']); ?>">
     <?php } ?>
