@@ -24,8 +24,45 @@ $laurels_options = get_option('laurels_theme_options');
       <link rel="shortcut icon" href="<?php echo esc_url($laurels_options['favicon']); ?>">
     <?php } ?>
     <?php wp_head(); ?>
+
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+        <script type="text/javascript">
+            window.cookieconsent_options = {"message":"Denne nettsiden bruker cookies for å lage den beste opplevelsen for deg","dismiss":"Greit","learnMore":"Mer info","link":"https://www.datatilsynet.no/Teknologi/Internett/cookies/","theme":"dark-bottom"};
+        </script>
+
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+    <!-- End Cookie Consent plugin -->
+
+
+
+
+
   </head>
   <body <?php body_class(); ?>>
+
+      <!-- FACEBOOK APP SDK -->
+      <!-- FACEBOOK APP SDK -->
+      <script>
+            window.fbAsyncInit = function() {
+              FB.init({
+                appId      : '1581645758814121',
+                xfbml      : true,
+                version    : 'v2.5'
+              });
+            };
+
+            (function(d, s, id){
+               var js, fjs = d.getElementsByTagName(s)[0];
+               if (d.getElementById(id)) {return;}
+               js = d.createElement(s); js.id = id;
+               js.src = "//connect.facebook.net/en_US/sdk.js";
+               fjs.parentNode.insertBefore(js, fjs);
+             }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!-- FACEBOOK APP SDK -->
+        <!-- FACEBOOK APP SDK -->
+
+
     <header>
       <div class="header_top hidden-xs hidden-sm">
         <div class="container webpage-container">
@@ -58,7 +95,7 @@ $laurels_options = get_option('laurels_theme_options');
               <div class="col-sm-10 col-md-10 no-padding">
                 <nav class="navbar-default main_menu navigation-deafault" role="navigation">
                   <div class="navbar-header res-nav-header toggle-respon">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-collapse">
                       <span class="sr-only"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>

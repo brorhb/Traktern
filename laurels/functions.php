@@ -16,6 +16,15 @@ function laurel_widgets_init() {
 add_action( 'widgets_init', 'laurel_widgets_init' );
 /* Widget area åpningstider */
 
+<<<<<<< HEAD
+=======
+/* Skjule adminbar for andre */
+add_action('after_setup_theme', 'remove_admin_bar');
+function remove_admin_bar() {
+if (!current_user_can('administrator') && !is_admin()) {show_admin_bar(false);}}
+/* Skjule adminbar for andre */
+
+>>>>>>> origin/master
 /* READ MORE LINK */
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 function wpdocs_excerpt_more( $more ) {

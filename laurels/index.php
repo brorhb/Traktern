@@ -5,10 +5,13 @@
 get_header();
 ?>
 <section>
-    <div class="blog_bg">
+    <div class="mapbg">
         <div class="container webpage-container">
             </br>
-            <h1>Blogg</h1>
+            <div class="col-md-4 col-sm-4">
+                <h1>Blogg</h1>
+                <p>Dette er blogg og nyhetsstedet vårt. Her kommer nyheter og tilbud og annet som engasjerer oss. Innleggene er sorttert slik at det nyeste er øverst.</p>
+            </div>
         </div>
     </div>
     <div class="container webpage-container">

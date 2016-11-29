@@ -1,5 +1,5 @@
 /*
-Theme Name: Laurels
+Theme Name: Traktern
 Theme URI: http://fasterthemes.com/wordpress-themes/Laurels
 Author: FasterThemes
 Author URI: http://fasterthemes.com/
@@ -20,6 +20,22 @@ Use it to make something cool, have fun, and share what you've learned with othe
     background-color: #2b2b2b;
     color: #a04e43;
 }
+.sub-menu {
+    background-color: black;
+    border-top: 3px solid black;
+}
+.main-menu-ul ul li ul > li > a {
+    color: white;
+}
+.main-menu-ul ul > li > ul > li > a:hover, .blog_dorp > li > a:focus {
+    color: #a04e43;
+}
+.graa {
+    background-color: #2b2b2b;
+}
+.block {
+    display: inline-block;
+}
 header {
     position: fixed;
     width: 100%;
@@ -29,7 +45,18 @@ header {
 .coffee_bg{
     color: white;
     position: relative;
-    height: 300px;
+    height: 500px;
+    width: 100%;
+    background-image: url(images/coffeebeans.jpg);
+    background-size: 125% auto;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.coffee_bg_liten{
+    color: white;
+    position: relative;
+    min-height: 250px;
     width: 100%;
     background-image: url(images/coffeebeans.jpg);
     background-size: 125% auto;
@@ -77,6 +104,9 @@ header {
 	.coffee_bg {
 		background-size: 1366px 911px;
 	}
+    .coffee_bg_liten {
+		background-size: 1366px 911px;
+	}
     .mapbg {
         background-size: 1377px 1071px;
     }
@@ -91,6 +121,9 @@ header {
     }
     header {
         position: relative;
+    }
+    .coffee_bg {
+        height: 300px;
     }
 }
 @media (min-width: 1000px) {
@@ -109,11 +142,14 @@ header {
     position: relative;
     height: 200px;
     width: 100%;
-    background-image: url(images/blogbg.jpg);
+    background-image: url(images/folio.jpg);
     background-size: 165% auto;
     background-position: top center;
     background-attachment: fixed;
     overflow: hidden;
+}
+.loginform {
+    overflow-x: hidden;
 }
 /* MINE KLASSER */
 /* MINE KLASSER */
@@ -131,12 +167,14 @@ p {
 }
 .pattern1 {
     background-image: url(images/pattern1.png);
+    padding: 16px;
 }
 .pattern2 {
     background-image: url(images/pattern2.png);
     position: relative;
     width: 100%;
     overflow: hidden;
+    padding: 16px;
 }
 .pattern2 p, h2, h3 {
     opacity: 0.8;
@@ -164,13 +202,13 @@ ul,li {
 }
 
 .indre_ramme_header {
-	font-size:2em;
+	index.php-size:2em;
 }
 
 .indre_ramme {
 	width:100%;
 	float:left;
-    padding: 10px;
+    padding: 8px;
     overflow-x: hidden;
 }
 
@@ -224,7 +262,9 @@ ul,li {
     position: relative;
     bottom: 0;
     right: 0;
-	margin-top: 10px;
+	margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 16px;
 }
 .kaffe img {
     margin-top: 65px;
@@ -237,12 +277,12 @@ ul,li {
 }
 .bottom-footer span {
     color: #b7b7b7;
-    font-size: 13px;
+    index.php-size: 13px;
     text-transform: uppercase;
 }
 .laurels-entry-meta a{
 	color: #535353;
-    font-size: 15px;
+    index.php-size: 15px;
     text-decoration: none;
     transition: all 0.5s ease-in-out 0s;
 }
@@ -262,7 +302,7 @@ ul,li {
 .blog-breadcumb a:after {
     color: #535353;
     content: none;
-    font-size: 14px;
+    index.php-size: 14px;
     padding-left: 5px;
 }
 .laurels-entry-meta {
@@ -270,7 +310,7 @@ ul,li {
     margin-right: 10px;
 }
 .blog-info > h2{
-	 font-size: 24px;
+	 index.php-size: 24px;
     padding-left: 10px;
     text-transform: capitalize;
     transition: all 0.5s ease-in-out 0s;
